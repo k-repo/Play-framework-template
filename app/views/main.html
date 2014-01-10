@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>#{get 'title' /}</title>
+        <meta charset="${_response_encoding}">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+
+
+        <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/main.css'}">
+
+        <!-- boots css -->
+        <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/bootstrap.css'}">
+        <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/bootstrap-theme.css'}">
+
+        #{get 'moreStyles' /}
+        <link rel="shortcut icon" type="image/png" href="@{'/public/images/favicon.png'}">
+        <script src="@{'/public/javascripts/jquery2.js'}" type="text/javascript" charset="${_response_encoding}"></script>
+        #{get 'moreScripts' /}
+    </head>
+
+
+
+
+
+    <body id="body" data-dateformat="${play.configuration['date.format']}">
+
+
+    #{headerNavigation /}
+    #{menu /}
+
+    <div class="container-fluid">
+    #{if flash.error}
+    <div class="alert alert-block">
+        <a class="close" data-dismiss="alert" href="#">×</a>
+        <h4 class="alert-heading">Error!</h4>
+        <strong>${play.i18n.Messages.get(flash.error)}</strong>
+    </div>
+    #{/if}
+    #{if flash.success}
+    <div class="alert alert-success">
+        <a class="close" data-dismiss="alert" href="#">×</a>
+        <h4 class="alert-heading">Success!</h4>
+        <strong>${play.i18n.Messages.get(flash.success)}</strong>
+    </div>
+    #{/if}
+    #{doLayout /}
+
+    </div>
+
+    </body>
+
+
+
+    <script src="@{'/public/javascripts/bootstrap.min.js'}" type="text/javascript" charset="${_response_encoding}"></script>
+
+</html>

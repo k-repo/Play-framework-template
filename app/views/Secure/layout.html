@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:regular,subset=Latin' rel='stylesheet' type='text/css'/>
+
+    <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/bootstrap.css'}">
+    <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/bootstrap-theme.css'}">
+
+#{get 'moreStyles' /}
+    <link rel="shortcut icon" type="image/png" href="@{'/public/images/favicon.png'}">
+    <script src="@{'/public/javascripts/jquery2.js'}" type="text/javascript" charset="${_response_encoding}"></script>
+</head>
+<body class="">
+
+<!-- Container -->
+<div class="container">
+    <div id="content" class="col-md-offset-4 col-md-4">
+        <!-- Begin Content -->
+        <div style="margin-top:20%" id="element-box" class="well">
+
+            <div id="system-message-container">
+                <div id="system-message"></div>
+            </div>
+
+        #{doLayout /}
+
+
+
+        </div>
+        <!-- End Content -->
+    </div>
+</div>
+
+</body>
+
+
+<script src="@{'/public/javascripts/bootstrap.min.js'}" type="text/javascript" charset="${_response_encoding}"></script>
+
+</html>
