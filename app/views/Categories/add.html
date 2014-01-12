@@ -1,0 +1,131 @@
+#{extends 'main.html' /}
+#{set title:'Home' /}
+
+
+
+<div class="panel panel-default">
+    <!-- Default panel contents -->
+    <div class="panel-heading">New user</div>
+
+
+    <div id="wrap">
+        <div class="row pad">
+            <div class="col-md-5 col-md-offset-1">
+
+
+            <div class="form">
+            #{form  @Users.save(user.id)  }
+
+                    <br>
+
+            #{if flash.error}
+                    <div class="alert alert-danger alert-dismissable">
+                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                        <strong>Warning!</strong> Best check yo self, you're not looking too good.
+                        ${play.i18n.Messages.get(flash.error)}
+                    </div>
+            #{/if}
+
+                    <div class="row">
+                        <div class="col-xs-5 col-md-6">
+
+                            <input  type="text" name="firstname" id="firstname" class="form-control "
+                                   placeholder="First Name"/></div>
+
+                        <div class="col-xs-6 col-md-6">
+
+                            <input type="text" name="lastname" id="lastname"  class="form-control" placeholder="Last Name"/>
+
+                        </div>
+                    </div>
+
+
+                    <input type="text" name="email" id="email" class="form-control  " placeholder="Email"/>
+
+                    <input
+                        type="password" name="password" id="password" class="form-control  " placeholder="Password"/>
+                    <input
+                        type="password" name="confirmpass" id="confirmpass" value="${user.password}" class="form-control  "
+                        placeholder="Confirm Password"/>
+
+
+
+
+                    <div class="">
+                        <select name="month" class = "form-control " name="roleId" id="roleId">
+                        <option value=""></option>
+                        #{list items:items, as:'item'}
+                            <option value="${item.id}">${item.roleName}</option>
+                        #{/list}
+                        </select>
+                    </div>
+
+
+
+                    <label>Administrator : </label> <label class="radio-inline">
+                    <input type="checkbox" checked name="isAdmin"  id=isAdmin />
+                    </label>
+
+
+
+
+                    <br/>
+                    <br/>
+                    <input type="submit" value="Save the new user" class="btn  btn-success btn-block " >
+
+
+            #{/form}
+            </div>
+
+
+
+            </div>
+
+
+
+            <div class="col-md-5 col-md-offset-0">
+                <br>
+
+                <h4>User signing</h4>
+
+                <p>
+
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt sed diam nonummy sed diam nonummy sed diam nonummy sed diam nonummy sed diam sed  ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, ex ea commodo consequat. Duis autem dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum
+
+                </p>
+
+                <br>
+
+                <a href="@{Users.index()}" class="btn  btn-primary btn-block " type="submit">
+                    All available users
+                </a>
+
+
+            </div>
+
+
+        </div>
+
+
+        <br><br><br>
+    </div>
+
+
+</div>
+
+
+
+<script type="text/javascript" charset="utf-8">
+    $(function() {
+        // Expose the form
+        $('form').click(function() {
+            $('form').expose({api: true}).load();
+        });
+
+        // If there is an error, focus to form
+        if($('form .error').size()) {
+            $('form').expose({api: true, loadSpeed: 0}).load();
+            $('form input[type=text]').get(0).focus();
+        }
+    });
+</script>
