@@ -10,6 +10,7 @@
 
     <div id="wrap">
         <div class="row pad">
+        #{form  @Products.update()  }
             <div class="col-md-5 col-md-offset-1">
 
 
@@ -17,14 +18,14 @@
 
 
 
-                #{form  @Products.update()  }
+
 
                     <br>
 
                     #{if flash.error}
                         <div class="alert alert-danger alert-dismissable">
                             <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                            <strong>Warning!</strong> Best check yo self, you're not looking too good.
+                            <strong>Warning!</strong> Best check your self, you're not looking too good.
                         ${play.i18n.Messages.get(flash.error)}
                         </div>
                     #{/if}
@@ -62,7 +63,7 @@
                     <input type="submit" value="Update category" class="btn  btn-success btn-block ">
 
 
-                #{/form}
+
 
 
 
@@ -87,7 +88,7 @@
 
             </div>
 
-
+        #{/form}
         </div>
 
 
@@ -98,17 +99,4 @@
 </div>
 
 
-<script type="text/javascript" charset="utf-8">
-    $(function () {
-        // Expose the form
-        $('form').click(function () {
-            $('form').expose({api: true}).load();
-        });
-
-        // If there is an error, focus to form
-        if ($('form .error').size()) {
-            $('form').expose({api: true, loadSpeed: 0}).load();
-            $('form input[type=text]').get(0).focus();
-        }
-    });
-</script>
+#{form_effect /}

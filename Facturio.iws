@@ -2,118 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/font/OpenSans-Light-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/font/OpenSans-Light-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/font/OpenSans-Light-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/font/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/font/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/font/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/animation.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/bootstrap-glyphicons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/font/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/tags/form_effect.html" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/Chambre.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/models/PurchaseProduit.java" afterPath="$PROJECT_DIR$/app/models/PurchaseProduct.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/models/SaleProduit.java" afterPath="$PROJECT_DIR$/app/models/SaleProduct.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/classes/controllers/Application.class" afterPath="$PROJECT_DIR$/tmp/classes/controllers/Application.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/classes/Bootstrap.class" afterPath="$PROJECT_DIR$/tmp/classes/Bootstrap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/Bootstrap" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/Bootstrap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/DocViewerPlugin" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/DocViewerPlugin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/classes/controllers/OpenIdService.class" afterPath="$PROJECT_DIR$/tmp/classes/controllers/OpenIdService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/classes/controllers/Security.class" afterPath="$PROJECT_DIR$/tmp/classes/controllers/Security.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/classes/models/User.class" afterPath="$PROJECT_DIR$/tmp/classes/models/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/classes/controllers/Users.class" afterPath="$PROJECT_DIR$/tmp/classes/controllers/Users.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Application" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Application" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.CRUD$Exclude" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.CRUD$Exclude" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.CRUD$For" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.CRUD$For" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.CRUD$Hidden" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.CRUD$Hidden" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.CRUD$ObjectType$ObjectField" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.CRUD$ObjectType$ObjectField" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.CRUD$ObjectType" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.CRUD$ObjectType" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.CRUD" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.CRUD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Check" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Check" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.OpenIdService" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.OpenIdService" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.PlayDocumentation" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.PlayDocumentation" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Secure$Security" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Secure$Security" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Secure" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Secure" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Security" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Security" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Users" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Users" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/helpers.CheatSheetHelper$1" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/helpers.CheatSheetHelper$1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/helpers.CheatSheetHelper$2" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/helpers.CheatSheetHelper$2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/helpers.CheatSheetHelper$3" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/helpers.CheatSheetHelper$3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/helpers.CheatSheetHelper" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/helpers.CheatSheetHelper" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/models.User" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/models.User" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Application.java" afterPath="$PROJECT_DIR$/app/controllers/Application.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/ApplicationTest.java" afterPath="$PROJECT_DIR$/test/ApplicationTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Bootstrap.java" afterPath="$PROJECT_DIR$/app/Bootstrap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Categories.java" afterPath="$PROJECT_DIR$/app/controllers/Categories.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Category.java" afterPath="$PROJECT_DIR$/app/models/Category.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Customer.java" afterPath="$PROJECT_DIR$/app/models/Customer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Customers.java" afterPath="$PROJECT_DIR$/app/controllers/Customers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facturio.iml" afterPath="$PROJECT_DIR$/Facturio.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facturio.ipr" afterPath="$PROJECT_DIR$/Facturio.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facturio.iws" afterPath="$PROJECT_DIR$/Facturio.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/OpenIdService.java" afterPath="$PROJECT_DIR$/app/controllers/OpenIdService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Product.java" afterPath="$PROJECT_DIR$/app/models/Product.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Products.java" afterPath="$PROJECT_DIR$/app/controllers/Products.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Purchase.java" afterPath="$PROJECT_DIR$/app/models/Purchase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Purchases.java" afterPath="$PROJECT_DIR$/app/controllers/Purchases.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Role.java" afterPath="$PROJECT_DIR$/app/models/Role.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Roles.java" afterPath="$PROJECT_DIR$/app/controllers/Roles.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Sale.java" afterPath="$PROJECT_DIR$/app/models/Sale.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Sales.java" afterPath="$PROJECT_DIR$/app/controllers/Sales.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Security.java" afterPath="$PROJECT_DIR$/app/controllers/Security.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Supplier.java" afterPath="$PROJECT_DIR$/app/models/Supplier.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Suppliers.java" afterPath="$PROJECT_DIR$/app/controllers/Suppliers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/User.java" afterPath="$PROJECT_DIR$/app/models/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Users.java" afterPath="$PROJECT_DIR$/app/controllers/Users.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Application_index.html" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Application_index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Secure_layout.html" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Secure_layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Secure_login.html" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Secure_login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_errors_404.html" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_errors_404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_errors_500.html" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_errors_500.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_main.html" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_headerNavigation.html" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_headerNavigation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_menu.html" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_menu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_module_crud__app_views_CRUD_index.html" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_module_crud__app_views_CRUD_index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_module_crud__app_views_CRUD_layout.html" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_module_crud__app_views_CRUD_layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_module_crud__app_views_CRUD_list.html" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_module_crud__app_views_CRUD_list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_module_crud__app_views_CRUD_show.html" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_module_crud__app_views_CRUD_show.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_module_crud__app_views_tags_crud_form.html" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_module_crud__app_views_tags_crud_form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_module_crud__app_views_tags_crud_navigation.html" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_module_crud__app_views_tags_crud_navigation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_module_crud__app_views_tags_crud_pagination.html" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_module_crud__app_views_tags_crud_pagination.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_module_crud__app_views_tags_crud_search.html" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_module_crud__app_views_tags_crud_search.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_module_crud__app_views_tags_crud_table.html" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_module_crud__app_views_tags_crud_table.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_module_crud__app_views_tags_crud_textField.html" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_module_crud__app_views_tags_crud_textField.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_module_crud__app_views_tags_crud_types.tag" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_module_crud__app_views_tags_crud_types.tag" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_module_crud__conf_routes" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_module_crud__conf_routes" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_play__framework_templates_tags_404.html" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_play__framework_templates_tags_404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_play__framework_templates_tags_500.html" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_play__framework_templates_tags_500.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Categories/add.html" afterPath="$PROJECT_DIR$/app/views/Categories/add.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Customers/add.html" afterPath="$PROJECT_DIR$/app/views/Customers/add.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Products/add.html" afterPath="$PROJECT_DIR$/app/views/Products/add.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Suppliers/add.html" afterPath="$PROJECT_DIR$/app/views/Suppliers/add.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Users/add.html" afterPath="$PROJECT_DIR$/app/views/Users/add.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/bootstrap.css" afterPath="$PROJECT_DIR$/public/stylesheets/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/crud" afterPath="$PROJECT_DIR$/modules/crud" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/dependencies.yml" afterPath="$PROJECT_DIR$/conf/dependencies.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tags/headerNavigation.html" afterPath="$PROJECT_DIR$/app/views/tags/headerNavigation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Application/index.html" afterPath="$PROJECT_DIR$/app/views/Application/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Categories/index.html" afterPath="$PROJECT_DIR$/app/views/Categories/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Customers/index.html" afterPath="$PROJECT_DIR$/app/views/Customers/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Products/index.html" afterPath="$PROJECT_DIR$/app/views/Products/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Suppliers/index.html" afterPath="$PROJECT_DIR$/app/views/Suppliers/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Users/index.html" afterPath="$PROJECT_DIR$/app/views/Users/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/jquery-tools.js" afterPath="$PROJECT_DIR$/public/javascripts/jquery-tools.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/jquery2.js" afterPath="$PROJECT_DIR$/public/javascripts/jquery2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Secure/layout.html" afterPath="$PROJECT_DIR$/app/views/Secure/layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/login.css" afterPath="$PROJECT_DIR$/public/stylesheets/login.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Secure/login.html" afterPath="$PROJECT_DIR$/app/views/Secure/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/main.css" afterPath="$PROJECT_DIR$/public/stylesheets/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/main.html" afterPath="$PROJECT_DIR$/app/views/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/main.js" afterPath="$PROJECT_DIR$/public/javascripts/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tags/menu.html" afterPath="$PROJECT_DIR$/app/views/tags/menu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/messages" afterPath="$PROJECT_DIR$/conf/messages" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/routes" afterPath="$PROJECT_DIR$/conf/routes" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/secure" afterPath="$PROJECT_DIR$/modules/secure" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Categories/show.html" afterPath="$PROJECT_DIR$/app/views/Categories/show.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Customers/show.html" afterPath="$PROJECT_DIR$/app/views/Customers/show.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Products/show.html" afterPath="$PROJECT_DIR$/app/views/Products/show.html" />
@@ -138,7 +39,7 @@
     <file path="/login.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1391790514354" ignored="false" />
     <file path="/Application.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389224263516" ignored="false" />
     <file path="/messages" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389496764202" ignored="false" />
-    <file path="/a.dummy" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1391792096015" ignored="false" />
+    <file path="/a.dummy" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1391793612038" ignored="false" />
     <file path="/messages.fr" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389494357661" ignored="false" />
     <file path="/Role.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389387569097" ignored="false" />
     <file path="$PROJECT_DIR$/test-result/application.log" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389375562404" ignored="false" />
@@ -153,9 +54,9 @@
     <file path="/headerNavigation.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389505007639" ignored="false" />
     <file path="/Categories.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389502064427" ignored="false" />
     <file path="/menu.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389508755187" ignored="false" />
-    <file path="/add.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389507574121" ignored="false" />
+    <file path="/add.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1391794461579" ignored="false" />
     <file path="/routes" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389415143118" ignored="false" />
-    <file path="/show.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389507818831" ignored="false" />
+    <file path="/show.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1391793692991" ignored="false" />
     <file path="/FactureProduit.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389497715508" ignored="false" />
     <file path="/Customer.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389502276744" ignored="false" />
     <file path="/Sale.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389497989737" ignored="false" />
@@ -166,6 +67,7 @@
     <file path="/Purchases.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389500612577" ignored="false" />
     <file path="/SweetController.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389500417514" ignored="false" />
     <file path="/bootstrap-glyphicons.css" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1391786147555" ignored="false" />
+    <file path="/*.regexp" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1391794256490" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,41 +128,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="layout.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/Secure/layout.html">
+      <file leaf-file-name="add.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/Products/add.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="133" selection-start="3717" selection-end="3717" vertical-scroll-proportion="0.2287234">
-              <folding>
-                <element signature="n#style#0;n#img#0;n#a#0;n#center#0;n#form#0;n#div#2;n#div#0;n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/Secure/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="36" selection-start="1187" selection-end="1187" vertical-scroll-proportion="-5.0">
-              <folding>
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#4;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery2.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/jquery2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="79" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/bootstrap.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2684" column="204" selection-start="44140" selection-end="44140" vertical-scroll-proportion="-8.08">
+            <state line="89" column="49" selection-start="2775" selection-end="2775" vertical-scroll-proportion="0.66312057">
               <folding />
             </state>
           </provider>
@@ -284,22 +155,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/public/stylesheets/login.css" />
-        <option value="$PROJECT_DIR$/public/stylesheets/main.css" />
-        <option value="$PROJECT_DIR$/public/font/glyphicons-halflings-regular.svg" />
-        <option value="$PROJECT_DIR$/app/views/main.html" />
-        <option value="$PROJECT_DIR$/public/stylesheets/bootstrap-glyphicons.css" />
-        <option value="$PROJECT_DIR$/../../../Bureau/login.html" />
+        <option value="$PROJECT_DIR$/app/views/Categories/add.html" />
+        <option value="$PROJECT_DIR$/app/views/Customers/add.html" />
+        <option value="$PROJECT_DIR$/app/views/Suppliers/add.html" />
+        <option value="$PROJECT_DIR$/app/views/Users/add.html" />
+        <option value="$PROJECT_DIR$/app/views/Categories/show.html" />
+        <option value="$PROJECT_DIR$/app/views/Customers/show.html" />
+        <option value="$PROJECT_DIR$/app/views/Products/show.html" />
+        <option value="$PROJECT_DIR$/app/views/Suppliers/show.html" />
+        <option value="$PROJECT_DIR$/app/views/Users/show.html" />
+        <option value="$PROJECT_DIR$/app/views/tags/form_effect.html" />
         <option value="$PROJECT_DIR$/app/views/Categories/index.html" />
         <option value="$PROJECT_DIR$/app/views/Customers/index.html" />
         <option value="$PROJECT_DIR$/app/views/Products/index.html" />
         <option value="$PROJECT_DIR$/app/views/Suppliers/index.html" />
         <option value="$PROJECT_DIR$/app/views/Users/index.html" />
-        <option value="$PROJECT_DIR$/conf/messages" />
-        <option value="$PROJECT_DIR$/app/views/Secure/login.html" />
-        <option value="$PROJECT_DIR$/public/stylesheets/bootstrap.css" />
-        <option value="$PROJECT_DIR$/public/javascripts/jquery2.js" />
-        <option value="$PROJECT_DIR$/app/views/Secure/layout.html" />
+        <option value="$PROJECT_DIR$/app/views/Products/add.html" />
       </list>
     </option>
   </component>
@@ -843,7 +714,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="2" width="1366" height="766" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -936,122 +807,115 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../Bureau/login.html">
+    <entry file="file://$PROJECT_DIR$/app/views/Customers/add.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="73" selection-start="3172" selection-end="3209" vertical-scroll-proportion="-16.541666">
+        <state line="24" column="50" selection-start="650" selection-end="650" vertical-scroll-proportion="-4.6666665">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Categories/show.html">
+    <entry file="file://$PROJECT_DIR$/app/views/Suppliers/add.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.4893617">
+        <state line="24" column="50" selection-start="650" selection-end="650" vertical-scroll-proportion="-4.6666665">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Categories/index.html">
+    <entry file="file://$PROJECT_DIR$/app/views/Users/add.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="4" selection-start="2404" selection-end="2410" vertical-scroll-proportion="-10.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Customers/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="8" selection-start="2356" selection-end="2379" vertical-scroll-proportion="-8.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Products/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="8" selection-start="2541" selection-end="2547" vertical-scroll-proportion="-11.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Suppliers/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="8" selection-start="2563" selection-end="2569" vertical-scroll-proportion="-12.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Users/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="14" selection-start="2462" selection-end="2462" vertical-scroll-proportion="-14.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Application/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tags/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="46" selection-start="365" selection-end="365" vertical-scroll-proportion="-1.3404255">
+        <state line="118" column="0" selection-start="3520" selection-end="3945" vertical-scroll-proportion="-10.75">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/tags/headerNavigation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="69" selection-start="549" selection-end="549" vertical-scroll-proportion="-2.7551022">
+        <state line="0" column="0" selection-start="0" selection-end="53" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/messages">
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app/views/Customers/show.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="12" selection-start="117" selection-end="117" vertical-scroll-proportion="0.104166664">
+        <state line="98" column="0" selection-start="3169" selection-end="3169" vertical-scroll-proportion="-10.291667">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/app/views/Products/show.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2684" column="204" selection-start="44140" selection-end="44140" vertical-scroll-proportion="-8.08">
+        <state line="101" column="0" selection-start="2859" selection-end="2859" vertical-scroll-proportion="-10.291667">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/jquery2.js">
+    <entry file="file://$PROJECT_DIR$/app/views/Suppliers/show.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="79" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
+        <state line="98" column="0" selection-start="3169" selection-end="3169" vertical-scroll-proportion="-10.291667">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Secure/login.html">
+    <entry file="file://$PROJECT_DIR$/app/views/tags/form_effect.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="36" selection-start="1187" selection-end="1187" vertical-scroll-proportion="-5.0">
-          <folding>
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#4;n#!!top" expanded="true" />
-          </folding>
+        <state line="13" column="9" selection-start="428" selection-end="428" vertical-scroll-proportion="-8.125">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Secure/layout.html">
+    <entry file="file://$PROJECT_DIR$/app/views/Users/show.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="133" selection-start="3717" selection-end="3717" vertical-scroll-proportion="0.2287234">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#center#0;n#form#0;n#div#2;n#div#0;n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="121" column="0" selection-start="3812" selection-end="3812" vertical-scroll-proportion="-10.833333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Categories/show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="69" selection-start="2432" selection-end="2432" vertical-scroll-proportion="0.5320624">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Categories/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="25" selection-start="404" selection-end="404" vertical-scroll-proportion="-4.9583335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Customers/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="19" selection-start="283" selection-end="303" vertical-scroll-proportion="0.17198582">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Users/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="17" selection-start="482" selection-end="483" vertical-scroll-proportion="0.3320965">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Suppliers/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="25" selection-start="402" selection-end="402" vertical-scroll-proportion="0.2251773">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Products/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="25" selection-start="400" selection-end="400" vertical-scroll-proportion="0.2251773">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Products/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="49" selection-start="2775" selection-end="2775" vertical-scroll-proportion="0.66312057">
+          <folding />
         </state>
       </provider>
     </entry>

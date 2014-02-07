@@ -10,18 +10,19 @@
 
     <div id="wrap">
         <div class="row pad">
+        #{form  @Users.save(user.id)  }
             <div class="col-md-5 col-md-offset-1">
 
 
             <div class="form">
-            #{form  @Users.save(user.id)  }
+
 
                     <br>
 
             #{if flash.error}
                     <div class="alert alert-danger alert-dismissable">
                         <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                        <strong>Warning!</strong> Best check yo self, you're not looking too good.
+                        <strong>Warning!</strong> Best check your self, you're not looking too good.
                         ${play.i18n.Messages.get(flash.error)}
                     </div>
             #{/if}
@@ -74,7 +75,7 @@
                     <input type="submit" value="Save the new user" class="btn  btn-success btn-block " >
 
 
-            #{/form}
+
             </div>
 
 
@@ -103,7 +104,7 @@
 
             </div>
 
-
+        #{/form}
         </div>
 
 

@@ -10,18 +10,19 @@
 
     <div id="wrap">
         <div class="row pad">
+        #{form  @Products.save(product.id)  }
             <div class="col-md-5 col-md-offset-1">
 
 
             <div class="form">
-            #{form  @Products.save(product.id)  }
+
 
                     <br>
 
             #{if flash.error}
                     <div class="alert alert-danger alert-dismissable">
                         <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                        <strong>Warning!</strong> Best check yo self, you're not looking too good.
+                        <strong>Warning!</strong> Best check your self, you're not looking too good.
                         ${play.i18n.Messages.get(flash.error)}
                     </div>
             #{/if}
@@ -41,34 +42,55 @@
                    <input type="text" name="price" id="price" class="form-control  " placeholder="Price"/>
 
 
-                 Category
-                <div class="">
+
+            <div class="">
+                #{if categories.size() > 0}
+                    Category
                     <select name="category" class = "form-control " name="roleId" id="roleId">
                         <option value=""></option>
                         #{list items:categories, as:'item'}
                             <option value="${item.id}">${item.name}</option>
                         #{/list}
                     </select>
-                </div>
 
+                #{/if}
+                #{else }
+                    <a href="@{Categories.add()}" class="btn btn-warning pull-left btn-block">
+                        <span class="glyphicon glyphicon-plus"></span> New Category
+                    </a>
+                #{/else}
+            </div>
+
+
+
+
+
+
+            <div class="">
+            #{if suppliers.size() > 0}
                 Supplier
-                <div class="">
                     <select name="supplierId" class = "form-control " name="roleId" id="roleId">
                         <option value=""></option>
                         #{list items:suppliers, as:'item'}
                             <option value="${item.id}">${item.companyName}</option>
                         #{/list}
                     </select>
-                </div>
 
+            #{/if}
+                #{else }
+                    <a href="@{Suppliers.add()}" class="btn btn-warning pull-left btn-block">
+                        <span class="glyphicon glyphicon-plus"></span> New Supplier
+                    </a>
+                #{/else}
+            </div>
 
 
                 <br/>
                     <br/>
-                    <input type="submit" value="Save the new category" class="btn  btn-success btn-block " >
+                    <input type="submit" value=" Save the new category" class="btn  btn-success btn-block " >
 
 
-            #{/form}
+
             </div>
 
 
@@ -97,7 +119,7 @@
 
             </div>
 
-
+        #{/form}
         </div>
 
 
