@@ -13,10 +13,10 @@ import javax.persistence.Entity;
  */
 
 @Entity
-public class PurchaseProduit extends Model {
+public class SaleProduct extends Model {
 
     Long productId;
-    Long factureId;
+    Long saleId;
     Integer qte;
 
 }

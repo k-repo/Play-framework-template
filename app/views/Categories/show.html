@@ -5,7 +5,7 @@
 
 <div class="panel panel-default">
     <!-- Default panel contents -->
-    <div class="panel-heading">New user</div>
+    <div class="panel-heading">Update category</div>
 
 
     <div id="wrap">
@@ -17,7 +17,7 @@
 
 
 
-                #{form  @Users.update()  }
+                #{form  @Categories.update()  }
 
                     <br>
 
@@ -30,50 +30,21 @@
                     #{/if}
 
 
-                    <div class="row">
-                        <div class="col-xs-5 col-md-6">
-
-                            <input value="${user.firstname}" type="text" name="firstname" id="firstname"
-                                   class="form-control "
-                                   placeholder="First Name"/></div>
-
-                        <div class="col-xs-6 col-md-6">
-
-                            <input value="${user.lastname}" type="text" name="lastname" id="lastname"
-                                   class="form-control" placeholder="Last Name"/>
-
-                        </div>
-                    </div>
 
 
-                    <input type="text" value="${user.email}" name="email" id="email" class="form-control  "
-                           placeholder="Email"/>
 
-                    <input
-                            type="password" value="${user.password}" name="password" id="password"
-                            class="form-control  " placeholder="Password"/>
-                    <input
-                            type="password" value="${user.password}" name="confirmpass" id="confirmpass"
-                            value="${user.password}" class="form-control  "
-                            placeholder="Confirm Password"/>
+                    <input type="text" value="${category.name}" name="name" id="name" class="form-control  "
+                           placeholder="Name"/>
+
+                    <textarea value="${category.description}" name="description"  id="description" class="form-control  "
+                           placeholder="Description">${category.description}</textarea>
 
 
-                    <div class="">
-                    ${role.roleName}
-                        <input type="hidden" id="roleId" name="roleId" value="${role.id}">
-                    </div>
-
-
-                    <label>Administrator : </label> <label class="radio-inline">
-                    <input type="checkbox" name="isAdmin" id=isAdmin/>
-                </label>
-
-
-                    <input type="hidden" name="id" value="${user.id}">
+                    <input type="hidden" name="id" value="${category.id}">
 
                     <br/>
                     <br/>
-                    <input type="submit" value="Update user" class="btn  btn-success btn-block ">
+                    <input type="submit" value="Update category" class="btn  btn-success btn-block ">
 
 
                 #{/form}
@@ -84,7 +55,7 @@
             </div>
             <div class="col-md-5 col-md-offset-0">
                 <br>
-                <h4>User signing</h4>
+                <h4>Categories</h4>
 
                 <p>
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
@@ -94,8 +65,8 @@
                     at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum
                 </p>
                 <br>
-                <a href="@{Users.index()}" class="btn  btn-primary btn-block " type="submit">
-                    All available users
+                <a href="@{Categories.index()}" class="btn  btn-primary btn-block " type="submit">
+                    All available categories
                 </a>
 
 

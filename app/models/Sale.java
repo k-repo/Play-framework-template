@@ -19,7 +19,7 @@ public class Sale extends Model{
     public String reference;
     public Date date;
     public Long userId;
-    public Long supplierId;
+    public Long customerId;
 
 
 

@@ -5,7 +5,7 @@
 
 <div class="panel panel-default">
     <!-- Default panel contents -->
-    <div class="panel-heading">New category</div>
+    <div class="panel-heading">New Customer</div>
 
 
     <div id="wrap">
@@ -14,7 +14,7 @@
 
 
             <div class="form">
-            #{form  @Categories.save(category.id)  }
+            #{form  @Customers.save(customer.id)  }
 
                     <br>
 
@@ -28,14 +28,23 @@
 
 
 
+                <input type="text" name="companyName" id="companyName" class="form-control  " placeholder="Company Name"/>
 
-                    <input type="text" name="name" id="name" class="form-control  " placeholder="Name"/>
+                <input type="text" name="firstname" id="firstname" class="form-control  " placeholder="Firstname"/>
+
+                <input type="text" name="lastname" id="lastname" class="form-control  " placeholder="Lastname"/>
+
+                <input type="text" name="email" id="email" class="form-control  " placeholder="Email"/>
+
+                <input type="text" name="phone" id="phone" class="form-control  " placeholder="Phone"/>
+
+                <input type="text" name="fax" id="fax" class="form-control  " placeholder="Fax"/>
 
 
 
-                   Description
+                   Address
 
-                   <textarea style="height: 137px" name="description" id="description" class="form-control  " placeholder="Description"> </textarea>
+                   <textarea name="adress" id="adress" class="form-control  " placeholder="Adress"> </textarea>
 
 
 
@@ -43,7 +52,7 @@
 
                 <br/>
                     <br/>
-                    <input type="submit" value="Save the new category" class="btn  btn-success btn-block " >
+                    <input type="submit" value="Save the new Customer" class="btn  btn-success btn-block " >
 
 
             #{/form}
@@ -58,7 +67,7 @@
             <div class="col-md-5 col-md-offset-0">
                 <br>
 
-                <h4>Categories</h4>
+                <h4>Customer contact</h4>
 
                 <p>
 
@@ -68,8 +77,8 @@
 
                 <br>
 
-                <a href="@{Categories.index()}" class="btn  btn-primary btn-block " type="submit">
-                    All available categories
+                <a href="@{Customers.index()}" class="btn  btn-primary btn-block " type="submit">
+                    All available customers
                 </a>
 
 

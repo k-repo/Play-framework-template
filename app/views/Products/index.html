@@ -5,7 +5,7 @@
 
 <div class="panel panel-default">
     <!-- Default panel contents -->
-    <div class="panel-heading">Categories</div>
+    <div class="panel-heading">Products</div>
 
     <div id="wrap">
 
@@ -17,7 +17,7 @@
 
 
         <div class="col-md-3 pull-left">
-        <a href="@{Categories.add()}" class="btn btn-success pull-left">
+        <a href="@{Products.add()}" class="btn btn-success pull-left">
             <span class="glyphicon glyphicon-star"></span> New
         </a>
             </div>
@@ -42,6 +42,8 @@
             <tr>
                 <th>Name</th>
                 <th>Description</th>
+                <th>Price</th>
+                <th>Quantity</th>
                 <th><span class="glyphicon glyphicon-folder-open"></span></th>
             </tr>
             </thead>
@@ -50,12 +52,14 @@
             <tr>
                 <td>${item.name}</td>
                 <td>${item.description}</td>
+                <td>${item.price}</td>
+                <td>${item.qte}</td>
                 <td style="width:10.5%">
-                    <a href="@{Categories.show(item.id)}" class="btn btn-sm btn-primary">
+                    <a href="@{Products.show(item.id)}" class="btn btn-sm btn-primary">
                         <span class="glyphicon glyphicon-edit"></span>
                     </a>
 
-                    <a href="@{Categories.delete(item.id)}" class="btn btn-sm btn-warning">
+                    <a href="@{Products.delete(item.id)}" class="btn btn-sm btn-warning">
                         <span class="glyphicon glyphicon-remove"></span>
                     </a>
                 </td>
@@ -70,14 +74,16 @@
 
 
         <ul class="pagination pull-right">
-            <li><a href="@{Categories.index()}?page=${previousPage}" >&laquo;</a></li>
+            <li><a href="@{Products.index()}?page=${previousPage}" >&laquo;</a></li>
+        #{if numberOfPages > 0}
         #{list items:1..numberOfPages, as:'i'}
 
-            <li #{if page == i}class="active"#{/if}><a  href="@{Categories.index()}?page=${i}">${i}</a></li>
+            <li #{if page == i}class="active"#{/if}><a  href="@{Products.index()}?page=${i}">${i}</a></li>
 
 
         #{/list}
-            <li><a href="@{Categories.index()}?page=${nextPage}">&raquo;</a></li>
+        #{/if}
+            <li><a href="@{Products.index()}?page=${nextPage}">&raquo;</a></li>
 
         </ul>
 

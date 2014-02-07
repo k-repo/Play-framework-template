@@ -1,9 +1,99 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title></title>
-</head>
-<body>
+#{extends 'main.html' /}
+#{set title:'Home' /}
 
-</body>
-</html>
+
+
+<div class="panel panel-default">
+    <!-- Default panel contents -->
+    <div class="panel-heading">Users</div>
+
+    <div id="wrap">
+
+<div class="row">
+
+    <div class="col-md-12 pad custyle">
+
+        <br>
+
+
+        <div class="col-md-3 pull-left">
+        <a href="@{Users.add()}" class="btn btn-success pull-left">
+            <span class="glyphicon glyphicon-star"></span> New
+        </a>
+            </div>
+
+
+        <div class="col-md-3 pull-right">
+            <form action="#" method="get">
+                <div class="input-group">
+                    <!-- USE TWITTER TYPEAHEAD JSON WITH API TO SEARCH -->
+                    <input class="form-control" id="system-search" name="q" placeholder="Search for" required>
+                    <span class="input-group-btn">
+                        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+                    </span>
+                </div>
+            </form>
+        </div>
+
+
+
+        <table class="table table-bordered table-responsive table-list-search table-striped custab">
+            <thead>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Email</th>
+                <th><span class="glyphicon glyphicon-folder-open"></span></th>
+            </tr>
+            </thead>
+            <tbody>
+            #{list items:items, as:'item'}
+            <tr>
+                <td>${item.firstname}</td>
+                <td>${item.lastname}</td>
+                <td>${item.email}</td>
+                <td style="width:10.5%">
+                    <a href="@{Users.show(item.id)}" class="btn btn-sm btn-primary">
+                        <span class="glyphicon glyphicon-edit"></span>
+                    </a>
+
+                    <a href="@{Users.delete(item.id)}" class="btn btn-sm btn-warning">
+                        <span class="glyphicon glyphicon-remove"></span>
+                    </a>
+                </td>
+            </tr>
+            #{/list}
+
+
+
+            </tbody>
+        </table>
+
+
+
+        <ul class="pagination pull-right">
+            <li><a href="@{Users.index()}?page=${previousPage}" >&laquo;</a></li>
+        #{if numberOfPages > 0}
+        #{list items:1..numberOfPages, as:'i'}
+
+            <li #{if page == i}class="active"#{/if}><a  href="@{Users.index()}?page=${i}">${i}</a></li>
+
+
+        #{/list}
+        #{/if}
+            <li><a href="@{Users.index()}?page=${nextPage}">&raquo;</a></li>
+
+        </ul>
+
+
+
+
+    </div>
+
+
+</div>
+
+
+    </div>
+
+</div>

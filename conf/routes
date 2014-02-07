@@ -17,5 +17,14 @@ GET     /public/                                staticDir:public
 # Import Secure routes
 *       /                                       module:secure
 
+
+# User save
+POST    /users/show                             Users.show
+
+# User update
+POST    /users/update                           Users.update
+
 # Catch all
 *       /{controller}/{action}                  {controller}.{action}
+
+

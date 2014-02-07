@@ -13,7 +13,7 @@ import javax.persistence.Entity;
  */
 
 @Entity
-public class SaleProduit extends Model {
+public class PurchaseProduct extends Model {
 
     Long productId;
     Long factureId;

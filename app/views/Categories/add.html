@@ -5,7 +5,7 @@
 
 <div class="panel panel-default">
     <!-- Default panel contents -->
-    <div class="panel-heading">New user</div>
+    <div class="panel-heading">New category</div>
 
 
     <div id="wrap">
@@ -14,7 +14,7 @@
 
 
             <div class="form">
-            #{form  @Users.save(user.id)  }
+            #{form  @Categories.save(category.id)  }
 
                     <br>
 
@@ -26,52 +26,24 @@
                     </div>
             #{/if}
 
-                    <div class="row">
-                        <div class="col-xs-5 col-md-6">
-
-                            <input  type="text" name="firstname" id="firstname" class="form-control "
-                                   placeholder="First Name"/></div>
-
-                        <div class="col-xs-6 col-md-6">
-
-                            <input type="text" name="lastname" id="lastname"  class="form-control" placeholder="Last Name"/>
-
-                        </div>
-                    </div>
 
 
-                    <input type="text" name="email" id="email" class="form-control  " placeholder="Email"/>
 
-                    <input
-                        type="password" name="password" id="password" class="form-control  " placeholder="Password"/>
-                    <input
-                        type="password" name="confirmpass" id="confirmpass" value="${user.password}" class="form-control  "
-                        placeholder="Confirm Password"/>
+                    <input type="text" name="name" id="name" class="form-control  " placeholder="Name"/>
+
+
+
+                   Description
+
+                   <textarea style="height: 137px" name="description" id="description" class="form-control  " placeholder="Description"> </textarea>
 
 
 
 
-                    <div class="">
-                        <select name="month" class = "form-control " name="roleId" id="roleId">
-                        <option value=""></option>
-                        #{list items:items, as:'item'}
-                            <option value="${item.id}">${item.roleName}</option>
-                        #{/list}
-                        </select>
-                    </div>
 
-
-
-                    <label>Administrator : </label> <label class="radio-inline">
-                    <input type="checkbox" checked name="isAdmin"  id=isAdmin />
-                    </label>
-
-
-
-
+                <br/>
                     <br/>
-                    <br/>
-                    <input type="submit" value="Save the new user" class="btn  btn-success btn-block " >
+                    <input type="submit" value="Save the new category" class="btn  btn-success btn-block " >
 
 
             #{/form}
@@ -86,7 +58,7 @@
             <div class="col-md-5 col-md-offset-0">
                 <br>
 
-                <h4>User signing</h4>
+                <h4>Categories</h4>
 
                 <p>
 
@@ -96,8 +68,8 @@
 
                 <br>
 
-                <a href="@{Users.index()}" class="btn  btn-primary btn-block " type="submit">
-                    All available users
+                <a href="@{Categories.index()}" class="btn  btn-primary btn-block " type="submit">
+                    All available categories
                 </a>
 
 

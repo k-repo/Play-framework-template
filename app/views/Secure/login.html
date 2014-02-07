@@ -1,18 +1,13 @@
 #{extends 'Secure/layout.html' /}
 
-<div class="form-inline">
 
-    <h1>&{'secure.title'}</h1>
 
 #{form @authenticate()}
-    <fieldset class="loginform">
 
         #{if flash.error}
-            <div class="alert alert-error">
+            <div class="alert alert-danger">
                 <button type="button" class="close" data-dismiss="alert">×</button>
-
                 <strong>&{flash.error}</strong> Please provide valid authorization.
-
             </div>
         #{/if}
 
@@ -26,39 +21,55 @@
         #{/if}
 
 
-        <input name="username" id="username" type="text" class="form-control" placeholder="Utilisateur" value="${flash.username}" required autofocus>
-        <br><br>
-        <input name="password" id="password" type="password" class="form-control" placeholder="Mot de passe" required>
-
-         <br>
-        <br>
-        <label class="pull-left" style="margin-left:5px;margin-right:15px;" for="remember">&{'secure.remember'}</label>
-        <input   class="pull-left" type="checkbox" name="remember" id="remember" value="true" ${flash.remember ? 'checked="true"' : ''} />
-
-        </label>
-
-
-        <span class="clearfix"></span>
 
 
 
-        <input  class="btn btn-lg btn-primary btn-block" type="submit" id="signin" value="&{'secure.signin'}" />
+        <!-- Form Name -->
 
 
-    </fieldset>
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-12" for="textinput">Email</label>
+            <div class="col-md-12">
+                <div class="input-group">
+                    <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                    <input name="username" id="username" type="text" class="form-control" placeholder="Username" value="${flash.username}" required autofocus style=" border-left: 2px solid rgb(108, 130, 214); ">
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Password input-->
+        <div class="form-group">
+            <label class="col-md-12" for="passwordinput">Password</label>
+            <div class="col-md-12">
+                <div class="input-group">
+                    <span class="input-group-addon"><span class="glyphicon glyphicon-ok-circle"></span></span>
+                    <input name="password" id="password" type="password" class="form-control" placeholder="Password" style=" border-left: 2px solid rgb(108, 130, 214); ">
+                </div>
+                <div class="input-group">
+                <label class="pull-left" style="margin-left:5px;margin-right:15px;" for="remember">&{'secure.remember'}</label>
+                <input   class="pull-left" type="checkbox" name="remember" id="remember" value="true" ${flash.remember ? 'checked="true"' : ''} />
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+
+            <div class="col-md-12 col-md-offset-0" >
+                <hr>
+                <input type="submit" id="singlebutton" name="singlebutton" class="btn btn-primary" style=" width: 100%; " value="&{'secure.signin'}" />
+                <hr>
+            </div>
+        </div>
+
+
+
+
 #{/form}
 
 
 
-    <br><br>
 
-
-    <form action="@{OpenIdService.authenticate()}" method="POST">
-        <input type="Hidden" name="userOpenId" id="userOpenId" value="https://www.google.com/accounts/o8/id" />
-        <a href="@{OpenIdService.authenticate()}">
-            <img width="100%" src="@{'/public/images/google.png'}"  />
-        </a>
-    </form>
 
 
 </div>

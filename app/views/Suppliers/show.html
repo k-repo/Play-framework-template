@@ -5,7 +5,7 @@
 
 <div class="panel panel-default">
     <!-- Default panel contents -->
-    <div class="panel-heading">Update customers</div>
+    <div class="panel-heading">Update supplier</div>
 
 
     <div id="wrap">
@@ -17,7 +17,7 @@
 
 
 
-                #{form  @Customers.update()  }
+                #{form  @Suppliers.update()  }
 
                     <br>
 
@@ -31,24 +31,26 @@
 
 
 
-                    <input type="text" value="${customer.companyName}" name="companyName" id="companyName" class="form-control  " placeholder="Firstname"/>
+                    <input type="text" value="${supplier.companyName}" name="companyName" id="companyName" class="form-control  " placeholder="Company Name"/>
 
-                    <input type="text" value="${customer.firstname}" name="firstname" id="firstname" class="form-control  " placeholder="Firstname"/>
+                    <input type="text" value="${supplier.firstname}" name="firstname" id="firstname" class="form-control  " placeholder="Firstname"/>
 
-                    <input type="text" value="${customer.lastname}" name="lastname" id="lastname" class="form-control  " placeholder="Lastname"/>
+                    <input type="text" value="${supplier.lastname}" name="lastname" id="lastname" class="form-control  " placeholder="Lastname"/>
 
-                    <input type="text" value="${customer.phone}" name="phone" id="phone" class="form-control  " placeholder="Phone"/>
+                    <input type="text" value="${supplier.email}" name="email" id="email" class="form-control  " placeholder="Email"/>
 
-                    <input type="text" value="${customer.fax}" name="fax" id="fax" class="form-control  " placeholder="Fax"/>
+                    <input type="text" value="${supplier.phone}" name="phone" id="phone" class="form-control  " placeholder="Phone"/>
 
-
-
-                    Adress
-
-                    <textarea style="height: 137px" name="adress" id="adress" class="form-control  " placeholder="Adress">value="${customer.adress}"</textarea>
+                    <input type="text" value="${supplier.fax}" name="fax" id="fax" class="form-control  " placeholder="Fax"/>
 
 
 
+                    Address
+
+                    <textarea name="adress" id="adress" class="form-control  " placeholder="Adress">${supplier.adress}</textarea>
+
+
+                    <input type="hidden" name="id" id="id" value="${supplier.id}" >
 
 
 
@@ -65,7 +67,7 @@
             </div>
             <div class="col-md-5 col-md-offset-0">
                 <br>
-                <h4>Customer contact</h4>
+                <h4>Supplier contact</h4>
 
                 <p>
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
@@ -75,8 +77,8 @@
                     at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum
                 </p>
                 <br>
-                <a href="@{Customers.index()}" class="btn  btn-primary btn-block " type="submit">
-                    All available customers
+                <a href="@{Suppliers.index()}" class="btn  btn-primary btn-block " type="submit">
+                    All available suppliers
                 </a>
 
 

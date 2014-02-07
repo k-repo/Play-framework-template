@@ -1,43 +1,128 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="${lang}">
 <head>
-    <title>Login</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>#{get 'title' /}</title>
+    <meta charset="${_response_encoding}">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <title>&{'secure.title'}</title>
 
-    <link href='http://fonts.googleapis.com/css?family=Ubuntu:regular,subset=Latin' rel='stylesheet' type='text/css'/>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/main.css'}">
 
+    <!-- boots css -->
     <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/bootstrap.css'}">
     <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/bootstrap-theme.css'}">
+    <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/bootstrap-glyphicons.css'}" rel="stylesheet">
 
 #{get 'moreStyles' /}
     <link rel="shortcut icon" type="image/png" href="@{'/public/images/favicon.png'}">
-    <script src="@{'/public/javascripts/jquery2.js'}" type="text/javascript" charset="${_response_encoding}"></script>
+
+#{get 'moreScripts' /}
+    <link href="http://brams.com/corporationlogin/css/style.css" rel="stylesheet">
+    <style>
+        .input-group-addon{
+            border-bottom-right-radius: 0;
+            border-top-right-radius: 0;
+        }
+        .form-control{
+            border-bottom-left-radius: 0;
+            border-top-left-radius: 0;
+        }
+    </style>
 </head>
-<body class="">
-
-<!-- Container -->
-<div class="container">
-    <div id="content" class="col-md-offset-4 col-md-4">
-        <!-- Begin Content -->
-        <div style="margin-top:20%" id="element-box" class="well">
-
-            <div id="system-message-container">
-                <div id="system-message"></div>
+<body class="login">
+<nav class="navbar navbar-inverse" role="navigation">
+</nav>
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="col-md-4 col-md-offset-4" style="">
+            <div class="logo">
+                <a href="index.html"><img src="http://brams.com/corporationlogin/images/logo.png" height="40" alt="logo name"></a>
             </div>
+        </div>
+    </div>
+    <div class="row-fluid " style="margin-top: 3%;">
+        <div class="col-md-10 col-md-offset-1 login-plain"  >
+            <div class="row-fluid">
+                <div class="col-md-12" >
+                    <div class="row">
+                        <div class="col-md-3" style="background: rgb(26,111,238);height:5px;"></div>
+                        <div class="col-md-3" style="background: rgb(219,69,50);height: 5px;"></div>
+                        <div class="col-md-3" style="background: rgb(255,186,1);height: 5px;"></div>
+                        <div class="col-md-3" style="background: rgb(1,157,89);height: 5px;"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12" style=" margin-top: 1%; margin-bottom: 1%;padding-left: 80px; ">
+                        <img src="http://www.brams.com/wp-content/uploads/brams/brams-logo.png" style="width: 140px;">
+                    </div>
+                </div>
+
+                <div class="col-md-4" style=" border-right: 1px solid rgb(216, 216, 216); ">
+                    <div class="row">
+                        <div class="darkbanner" ><h4 style="color: #fff;">Sign in</h4></div>
+                        <div class="darkbannerwrap"></div>
+                        <div class="col-md-10 col-md-offset-1 " >
 
         #{doLayout /}
 
 
 
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-7">
+
+                    <div class="row" style="margin-left: 46px;">
+                        <div class="darkbanner"><h4 style="color: #fff;">Sign in with Google Apps. Click Here !</h4></div>
+                        <div class="darkbannerwrap"></div>
+                        <div class="col-md-12">
+                            <img src="http://www.brams.com/wp-content/uploads/google/gapps_img.png" width="85%" style="margin-left:10px;margin-top: 9.5%;position: absolute;"/>
+                            <form action="@{OpenIdService.authenticate()}" method="POST">
+                                <input type="Hidden" name="userOpenId" id="userOpenId" value="https://www.google.com/accounts/o8/id" />
+                                <center>
+                                <a href="@{OpenIdService.authenticate()}">
+                                    <img src="https://developers.google.com/accounts/images/sign-in-with-google.png" width="50%" style="margin-bottom:20%">
+                                </a>
+                                </center>
+                                <br>
+
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
-        <!-- End Content -->
+
     </div>
 </div>
 
+<div class="footer">
+
+
+    <div style="width: 10%;float: left;">
+        <a href="#" target="_blank" data-test-name="landing-page-help">Support
+        </a>
+    </div>
+    <div style="width: 10%;float: left;">
+        <a href="#" target="_blank" data-test-name="landing-page-help">Contact us
+        </a>
+    </div>
+    <div style="width: 70%;float: left;text-align: right;">
+        2014  <span class="glyphicon glyphicon-copyright-mark"> Brams.
+    </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="@{'/public/javascripts/jquery2.js'}" type="text/javascript" charset="${_response_encoding}"></script>
+
 </body>
-
-
-<script src="@{'/public/javascripts/bootstrap.min.js'}" type="text/javascript" charset="${_response_encoding}"></script>
-
 </html>

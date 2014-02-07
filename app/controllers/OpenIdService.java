@@ -13,7 +13,7 @@ public class OpenIdService extends Controller{
         System.out.println("checkAuthenticated");
         System.out.println("Session user "+session.get("username"));
         System.out.println("Session email "+session.get("email"));
-        System.out.println(session.get("userRole"));
+        System.out.println("Session role "+session.get("userRole"));
         if (session.get("username") == null || session.get("username").equals("")) {
             System.out.println("session username null or empty");
             Secure.login();
@@ -70,6 +70,7 @@ public class OpenIdService extends Controller{
                 if(connectedUser != null && User.find("byEmail", userEmail.toLowerCase()).fetch().size() > 0 && connectedUser.email.toLowerCase().equals(userEmail.toLowerCase())){
                     session.put("userId",connectedUser.id);
                     session.put("username", first+" "+last);
+                    session.put("userRole", connectedUser.roleId);
                     session.put("email", userEmail);
                     flash.put("Welcome", session.get("username"));
 

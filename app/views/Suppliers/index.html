@@ -5,7 +5,7 @@
 
 <div class="panel panel-default">
     <!-- Default panel contents -->
-    <div class="panel-heading">Customers</div>
+    <div class="panel-heading">Suppliers</div>
 
     <div id="wrap">
 
@@ -17,7 +17,7 @@
 
 
         <div class="col-md-3 pull-left">
-        <a href="@{Customers.add()}" class="btn btn-success pull-left">
+        <a href="@{Suppliers.add()}" class="btn btn-success pull-left">
             <span class="glyphicon glyphicon-star"></span> New
         </a>
             </div>
@@ -51,15 +51,15 @@
             #{list items:items, as:'item'}
             <tr>
                 <td>${item.companyName}</td>
-                <td>${item.firstName}</td>
-                <td>${item.lastName}</td>
+                <td>${item.firstname}</td>
+                <td>${item.lastname}</td>
                 <td>${item.phone}</td>
                 <td style="width:10.5%">
-                    <a href="@{Customers.show(item.id)}" class="btn btn-sm btn-primary">
+                    <a href="@{Suppliers.show(item.id)}" class="btn btn-sm btn-primary">
                         <span class="glyphicon glyphicon-edit"></span>
                     </a>
 
-                    <a href="@{Customers.delete(item.id)}" class="btn btn-sm btn-warning">
+                    <a href="@{Suppliers.delete(item.id)}" class="btn btn-sm btn-warning">
                         <span class="glyphicon glyphicon-remove"></span>
                     </a>
                 </td>
@@ -74,14 +74,16 @@
 
 
         <ul class="pagination pull-right">
-            <li><a href="@{Categories.index()}?page=${previousPage}" >&laquo;</a></li>
+            <li><a href="@{Suppliers.index()}?page=${previousPage}" >&laquo;</a></li>
+        #{if numberOfPages > 0}
         #{list items:1..numberOfPages, as:'i'}
 
-            <li #{if page == i}class="active"#{/if}><a  href="@{Categories.index()}?page=${i}">${i}</a></li>
+            <li #{if page == i}class="active"#{/if}><a  href="@{Suppliers.index()}?page=${i}">${i}</a></li>
 
 
         #{/list}
-            <li><a href="@{Users.index()}?page=${nextPage}">&raquo;</a></li>
+        #{/if}
+            <li><a href="@{Suppliers.index()}?page=${nextPage}">&raquo;</a></li>
 
         </ul>
 

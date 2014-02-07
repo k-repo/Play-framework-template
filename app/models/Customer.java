@@ -23,22 +23,23 @@ public class Customer extends Model {
     @Required
     public String email;
 
-
-
-    public String fullname;
     @Required
     public String firstname;
     @Required
     public String lastname;
 
-    public boolean isAdmin;
-
-    public Long roleId;
+    public String companyName;
 
     @Required
-    public String password;
+    public String phone;
 
-    public void setPassword(String password) {
-        this.password = Crypto.passwordHash(password);
-    }
+    public String fax;
+
+    @Required
+    public String adress;
+
+
+
+
+
 }

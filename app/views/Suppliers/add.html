@@ -5,7 +5,7 @@
 
 <div class="panel panel-default">
     <!-- Default panel contents -->
-    <div class="panel-heading">New Customer</div>
+    <div class="panel-heading">New Supplier</div>
 
 
     <div id="wrap">
@@ -14,7 +14,7 @@
 
 
             <div class="form">
-            #{form  @Customers.save(customer.id)  }
+            #{form  @Suppliers.save(supplier.id)  }
 
                     <br>
 
@@ -28,11 +28,13 @@
 
 
 
-                <input type="text" name="companyName" id="companyName" class="form-control  " placeholder="Firstname"/>
+                <input type="text" name="companyName" id="companyName" class="form-control  " placeholder="Company Name"/>
 
                 <input type="text" name="firstname" id="firstname" class="form-control  " placeholder="Firstname"/>
 
                 <input type="text" name="lastname" id="lastname" class="form-control  " placeholder="Lastname"/>
+
+                <input type="text" name="email" id="email" class="form-control  " placeholder="Email"/>
 
                 <input type="text" name="phone" id="phone" class="form-control  " placeholder="Phone"/>
 
@@ -40,9 +42,9 @@
 
 
 
-                   Adress
+                   Address
 
-                   <textarea style="height: 137px" name="adress" id="adress" class="form-control  " placeholder="Adress"> </textarea>
+                   <textarea name="adress" id="adress" class="form-control  " placeholder="Adress"> </textarea>
 
 
 
@@ -65,7 +67,7 @@
             <div class="col-md-5 col-md-offset-0">
                 <br>
 
-                <h4>Customer contact</h4>
+                <h4>Supplier contact</h4>
 
                 <p>
 
@@ -75,8 +77,8 @@
 
                 <br>
 
-                <a href="@{Customers.index()}" class="btn  btn-primary btn-block " type="submit">
-                    All available customers
+                <a href="@{Suppliers.index()}" class="btn  btn-primary btn-block " type="submit">
+                    All available suppliers
                 </a>
 
 

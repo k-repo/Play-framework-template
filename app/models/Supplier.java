@@ -22,14 +22,17 @@ public class Supplier extends Model {
     @Required
     public String email;
 
-    public String companyName;
     @Required
     public String firstname;
     @Required
     public String lastname;
 
+    public String companyName;
+
     @Required
     public String phone;
+
+    public String fax;
 
     @Required
     public String adress;

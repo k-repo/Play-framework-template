@@ -5,7 +5,7 @@
 
 <div class="panel panel-default">
     <!-- Default panel contents -->
-    <div class="panel-heading">Update category</div>
+    <div class="panel-heading">Update product</div>
 
 
     <div id="wrap">
@@ -17,7 +17,7 @@
 
 
 
-                #{form  @Categories.update()  }
+                #{form  @Products.update()  }
 
                     <br>
 
@@ -33,14 +33,29 @@
 
 
 
-                    <input type="text" value="${category.name}" name="name" id="name" class="form-control  "
-                           placeholder="Name"/>
-
-                    <textarea value="${category.description}" name="description"  id="description" class="form-control  "
-                           placeholder="Description">${category.description}</textarea>
+                    <input value="${product.name}" type="text" name="name" id="name" class="form-control  " placeholder="Name"/>
 
 
-                    <input type="hidden" name="id" value="${category.id}">
+
+                    Description
+
+                    <textarea  name="description" id="description" class="form-control  " placeholder="Description">${product.description}</textarea>
+
+
+                    <input value="${product.price}" type="text" name="price" id="price" class="form-control  " placeholder="Price"/>
+
+                    #{if category != null}
+                        Category : ${category.name}
+                        <br>
+                    #{/if}
+
+                    #{if supplier != null}
+                    Supplier : ${supplier.companyName}
+                    #{/if}
+
+
+
+                    <input type="hidden" name="id" value="${product.id}">
 
                     <br/>
                     <br/>

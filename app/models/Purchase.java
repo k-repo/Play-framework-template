@@ -19,7 +19,7 @@ public class Purchase extends Model{
     public String reference;
     public Date date;
     public Long userId;
-    public Long customerId;
+    public Long supplierId;
 
 
 

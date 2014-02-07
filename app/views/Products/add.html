@@ -5,7 +5,7 @@
 
 <div class="panel panel-default">
     <!-- Default panel contents -->
-    <div class="panel-heading">New category</div>
+    <div class="panel-heading">New product</div>
 
 
     <div id="wrap">
@@ -14,7 +14,7 @@
 
 
             <div class="form">
-            #{form  @Categories.save(category.id)  }
+            #{form  @Products.save(product.id)  }
 
                     <br>
 
@@ -35,9 +35,31 @@
 
                    Description
 
-                   <textarea style="height: 137px" name="description" id="description" class="form-control  " placeholder="Description"> </textarea>
+                   <textarea name="description" id="description" class="form-control  " placeholder="Description"> </textarea>
 
 
+                   <input type="text" name="price" id="price" class="form-control  " placeholder="Price"/>
+
+
+                 Category
+                <div class="">
+                    <select name="category" class = "form-control " name="roleId" id="roleId">
+                        <option value=""></option>
+                        #{list items:categories, as:'item'}
+                            <option value="${item.id}">${item.name}</option>
+                        #{/list}
+                    </select>
+                </div>
+
+                Supplier
+                <div class="">
+                    <select name="supplierId" class = "form-control " name="roleId" id="roleId">
+                        <option value=""></option>
+                        #{list items:suppliers, as:'item'}
+                            <option value="${item.id}">${item.companyName}</option>
+                        #{/list}
+                    </select>
+                </div>
 
 
 
@@ -58,7 +80,7 @@
             <div class="col-md-5 col-md-offset-0">
                 <br>
 
-                <h4>Categories</h4>
+                <h4>Products</h4>
 
                 <p>
 
@@ -68,8 +90,8 @@
 
                 <br>
 
-                <a href="@{Customers.index()}" class="btn  btn-primary btn-block " type="submit">
-                    All available customers
+                <a href="@{Products.index()}" class="btn  btn-primary btn-block " type="submit">
+                    All available products
                 </a>
 
 

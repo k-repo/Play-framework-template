@@ -5,7 +5,7 @@
 
 <div class="panel panel-default">
     <!-- Default panel contents -->
-    <div class="panel-heading">New category</div>
+    <div class="panel-heading">Update customer</div>
 
 
     <div id="wrap">
@@ -17,7 +17,7 @@
 
 
 
-                #{form  @Categories.update()  }
+                #{form  @Customers.update()  }
 
                     <br>
 
@@ -31,20 +31,32 @@
 
 
 
+                    <input type="text" value="${customer.companyName}" name="companyName" id="companyName" class="form-control  " placeholder="Company Name"/>
+
+                    <input type="text" value="${customer.firstname}" name="firstname" id="firstname" class="form-control  " placeholder="Firstname"/>
+
+                    <input type="text" value="${customer.lastname}" name="lastname" id="lastname" class="form-control  " placeholder="Lastname"/>
+
+                    <input type="text" value="${customer.email}" name="email" id="email" class="form-control  " placeholder="Email"/>
+
+                    <input type="text" value="${customer.phone}" name="phone" id="phone" class="form-control  " placeholder="Phone"/>
+
+                    <input type="text" value="${customer.fax}" name="fax" id="fax" class="form-control  " placeholder="Fax"/>
+
+                    <input type="hidden" name="id" id="id" value="${customer.id}" >
+
+                    Address
+
+                    <textarea name="adress" id="adress" class="form-control  " placeholder="Adress">${customer.adress}</textarea>
 
 
-                    <input type="text" value="${category.name}" name="name" id="name" class="form-control  "
-                           placeholder="Name"/>
-
-                    <textarea value="${category.description}" name="description"  id="description" class="form-control  "
-                           placeholder="Description">${category.description}</textarea>
 
 
-                    <input type="hidden" name="id" value="${category.id}">
+
 
                     <br/>
                     <br/>
-                    <input type="submit" value="Update user" class="btn  btn-success btn-block ">
+                    <input type="submit" value="Update contact" class="btn  btn-success btn-block ">
 
 
                 #{/form}
@@ -55,7 +67,7 @@
             </div>
             <div class="col-md-5 col-md-offset-0">
                 <br>
-                <h4>User signing</h4>
+                <h4>Customer contact</h4>
 
                 <p>
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
@@ -65,8 +77,8 @@
                     at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum
                 </p>
                 <br>
-                <a href="@{Users.index()}" class="btn  btn-primary btn-block " type="submit">
-                    All available users
+                <a href="@{Customers.index()}" class="btn  btn-primary btn-block " type="submit">
+                    All available customers
                 </a>
 
 

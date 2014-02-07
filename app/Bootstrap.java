@@ -1,3 +1,4 @@
+import models.Role;
 import models.User;
 import play.jobs.Job;
 import play.jobs.OnApplicationStart;
@@ -18,8 +19,25 @@ public class Bootstrap extends Job {
         u.lastname = "kamal";
         u.password = "admin";
         u.isAdmin = true;
+        u.roleId = 1L;
 
-        u.merge();
+        u.save();
+
+        System.out.println("####---- "+u.password);
+
+        Role r = new Role();
+        r.roleName = "Sales";
+        r.roleDescription = "main manager";
+        r.parentRole = 0L;
+
+        r.save();
+
+        Role r2 = new Role();
+        r2.roleName = "Purchase";
+        r2.roleDescription = "main manager";
+        r2.parentRole = 0L;
+
+        r2.save();
 
 
 

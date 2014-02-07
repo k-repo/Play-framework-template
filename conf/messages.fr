@@ -1,0 +1,17 @@
+# You can specialize this file for each language.
+# For example, for French create a messages.fr file
+#
+
+brand=Slevin Bills
+
+
+#User
+email=Email
+password=Mot de passe
+fullname=Nom complet
+firstname=Prénom
+lastname=Nom de famille
+isAdmin=Administrateur
+
+
+scaffold.validation=Vous devez remplire tous les champs

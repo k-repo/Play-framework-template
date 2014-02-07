@@ -2,6 +2,7 @@ package controllers;
 
 
 import models.User;
+import play.libs.Crypto;
 import play.mvc.Scope;
 
 
@@ -32,8 +33,8 @@ public class Security extends Secure.Security {
 
 
     static boolean authenticate(String username, String password) {
-        if(User.find("byFullNameAndPassword", username, password).fetch().size() > 0){
-            User user = User.find("byFullNameAndPassword", username, password).first();
+        if(User.find("byFullNameAndPassword", username, Crypto.passwordHash(password)).fetch().size() > 0){
+            User user = User.find("byFullNameAndPassword", username, Crypto.passwordHash(password)).first();
 
             if(user == null){
                 System.out.println("User == null 1");
@@ -41,8 +42,9 @@ public class Security extends Secure.Security {
             }
 
             session.put("username", user.fullname);
+            session.put("userId", user.id);
             System.out.println("Authenticate session content "+session.get("username"));
-            return user != null && user.password.equals(password);
+            return user != null && user.password.equals(Crypto.passwordHash(password));
 
         }
         else

@@ -3,10 +3,7 @@ package models;
 import play.data.validation.Required;
 import play.db.jpa.Model;
 
-import javax.persistence.CascadeType;
-import javax.persistence.Lob;
-import javax.persistence.ManyToOne;
-import javax.persistence.OneToMany;
+import javax.persistence.*;
 import java.util.List;
 
 /**
@@ -16,10 +13,9 @@ import java.util.List;
  * Time: 20:29
  * To change this template use File | Settings | File Templates.
  */
-public class Role extends Model {
 
-    @Required
-    public Long roleId;
+@Entity
+public class Role extends Model {
 
     @Required
     public String roleName;

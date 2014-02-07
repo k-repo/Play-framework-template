@@ -3,8 +3,10 @@ package models;
 import play.data.validation.Email;
 import play.data.validation.Required;
 import play.db.jpa.Model;
-import javax.persistence.Entity;
+import play.libs.Crypto;
 
+import javax.persistence.Entity;
+import javax.persistence.ManyToOne;
 
 /**
  * Created with IntelliJ IDEA.
@@ -22,20 +24,22 @@ public class User extends Model {
     @Required
     public String email;
 
-    @Required
-    public String password;
+
 
     public String fullname;
-
+    @Required
     public String firstname;
-
+    @Required
     public String lastname;
 
     public boolean isAdmin;
 
+    public Long roleId;
 
+    @Required
+    public String password;
 
-
-
-
+    public void setPassword(String password) {
+        this.password = Crypto.passwordHash(password);
+    }
 }

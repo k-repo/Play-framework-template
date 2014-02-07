@@ -1,5 +1,11 @@
 package models;
 
+import play.data.validation.Required;
+import play.db.jpa.Model;
+
+import javax.persistence.Entity;
+import javax.persistence.Lob;
+
 /**
  * Created with IntelliJ IDEA.
  * User: root
@@ -7,5 +13,14 @@ package models;
  * Time: 21:04
  * To change this template use File | Settings | File Templates.
  */
-public class Category {
+
+@Entity
+public class Category extends Model{
+
+    @Required
+    public String name;
+
+    @Required
+    public String description;
+
 }
