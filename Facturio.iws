@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/Chambre.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facturio.iws" afterPath="$PROJECT_DIR$/Facturio.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/application.conf" afterPath="$PROJECT_DIR$/conf/application.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Users.java" afterPath="$PROJECT_DIR$/app/controllers/Users.java" />
     </list>
     <ignored path="Facturio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -15,7 +13,7 @@
     <file path="/fragment.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389497997794" ignored="false" />
     <file path="/Personne.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1386880083359" ignored="false" />
     <file path="/Chambre.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1386880177365" ignored="false" />
-    <file path="/Users.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389499497291" ignored="false" />
+    <file path="/Users.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1392056420929" ignored="false" />
     <file path="/User.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389387554272" ignored="false" />
     <file path="/Security.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389497274713" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/jsp/lib/jsp-impl.jar!/standardSchemas/jspxml2.xsd" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1386881605136" ignored="false" />
@@ -143,10 +141,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.conf" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.conf" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conf/application.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="6" selection-start="375" selection-end="375" vertical-scroll-proportion="0.36458334">
+            <state line="14" column="6" selection-start="375" selection-end="375" vertical-scroll-proportion="-8.4">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Users.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/Users.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="28" selection-start="456" selection-end="456" vertical-scroll-proportion="0.35714287">
               <folding />
             </state>
           </provider>
@@ -179,7 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/Suppliers/index.html" />
         <option value="$PROJECT_DIR$/app/views/Users/index.html" />
         <option value="$PROJECT_DIR$/app/views/Products/add.html" />
         <option value="$PROJECT_DIR$/app/views/Suppliers/add.html" />
@@ -195,6 +201,7 @@
         <option value="$PROJECT_DIR$/app/controllers/Customers.java" />
         <option value="$PROJECT_DIR$/app/views/Customers/show.html" />
         <option value="$PROJECT_DIR$/conf/application.conf" />
+        <option value="$PROJECT_DIR$/app/controllers/Users.java" />
       </list>
     </option>
   </component>
@@ -898,11 +905,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/Categories/show.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="69" selection-start="2432" selection-end="2432" vertical-scroll-proportion="0.5320624" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Suppliers/show.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="98" column="8" selection-start="3177" selection-end="3177" vertical-scroll-proportion="0.84042555">
@@ -999,7 +1001,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/conf/application.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="6" selection-start="375" selection-end="375" vertical-scroll-proportion="0.36458334">
+        <state line="14" column="6" selection-start="375" selection-end="375" vertical-scroll-proportion="-8.4">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="28" selection-start="456" selection-end="456" vertical-scroll-proportion="0.35714287">
           <folding />
         </state>
       </provider>

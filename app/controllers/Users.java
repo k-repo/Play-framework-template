@@ -7,6 +7,7 @@ import play.i18n.Messages;
 import play.mvc.Controller;
 import play.mvc.With;
 
+import javax.persistence.Table;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,6 +21,7 @@ import java.util.List;
 
 
 @With(Secure.class)
+@Table(name = "user_accounts")
 public class Users extends Controller {
 
     public static void index(){
