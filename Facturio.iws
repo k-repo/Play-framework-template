@@ -3,56 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/Chambre.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/font/OpenSans-Light-webfont.eot" afterPath="$PROJECT_DIR$/public/font/OpenSans-Light-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/font/OpenSans-Light-webfont.ttf" afterPath="$PROJECT_DIR$/public/font/OpenSans-Light-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/font/OpenSans-Light-webfont.woff" afterPath="$PROJECT_DIR$/public/font/OpenSans-Light-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/font/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/public/font/glyphicons-halflings-regular.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/font/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/public/font/glyphicons-halflings-regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/font/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/public/font/glyphicons-halflings-regular.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Categories.java" afterPath="$PROJECT_DIR$/app/controllers/Categories.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Category.java" afterPath="$PROJECT_DIR$/app/models/Category.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Customer.java" afterPath="$PROJECT_DIR$/app/models/Customer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Customers.java" afterPath="$PROJECT_DIR$/app/controllers/Customers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facturio.iws" afterPath="$PROJECT_DIR$/Facturio.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Product.java" afterPath="$PROJECT_DIR$/app/models/Product.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Products.java" afterPath="$PROJECT_DIR$/app/controllers/Products.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Purchase.java" afterPath="$PROJECT_DIR$/app/models/Purchase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/PurchaseProduct.java" afterPath="$PROJECT_DIR$/app/models/PurchaseProduct.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Purchases.java" afterPath="$PROJECT_DIR$/app/controllers/Purchases.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Roles.java" afterPath="$PROJECT_DIR$/app/controllers/Roles.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Sale.java" afterPath="$PROJECT_DIR$/app/models/Sale.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/SaleProduct.java" afterPath="$PROJECT_DIR$/app/models/SaleProduct.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Sales.java" afterPath="$PROJECT_DIR$/app/controllers/Sales.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Suppliers.java" afterPath="$PROJECT_DIR$/app/controllers/Suppliers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_main.html" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_headerNavigation.html" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_headerNavigation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Categories/add.html" afterPath="$PROJECT_DIR$/app/views/Categories/add.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Customers/add.html" afterPath="$PROJECT_DIR$/app/views/Customers/add.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Products/add.html" afterPath="$PROJECT_DIR$/app/views/Products/add.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Suppliers/add.html" afterPath="$PROJECT_DIR$/app/views/Suppliers/add.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Users/add.html" afterPath="$PROJECT_DIR$/app/views/Users/add.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/animation.css" afterPath="$PROJECT_DIR$/public/stylesheets/animation.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/bootstrap-datepicker.js" afterPath="$PROJECT_DIR$/public/javascripts/bootstrap-datepicker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/bootstrap-glyphicons.css" afterPath="$PROJECT_DIR$/public/stylesheets/bootstrap-glyphicons.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/crud" afterPath="$PROJECT_DIR$/modules/crud" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/datepicker.css" afterPath="$PROJECT_DIR$/public/stylesheets/datepicker.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tags/form_effect.html" afterPath="$PROJECT_DIR$/app/views/tags/form_effect.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/font/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/public/font/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Categories/index.html" afterPath="$PROJECT_DIR$/app/views/Categories/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Customers/index.html" afterPath="$PROJECT_DIR$/app/views/Customers/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Products/index.html" afterPath="$PROJECT_DIR$/app/views/Products/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Suppliers/index.html" afterPath="$PROJECT_DIR$/app/views/Suppliers/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Users/index.html" afterPath="$PROJECT_DIR$/app/views/Users/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/jquery-tools.js" afterPath="$PROJECT_DIR$/public/javascripts/jquery-tools.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/main.html" afterPath="$PROJECT_DIR$/app/views/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/main.js" afterPath="$PROJECT_DIR$/public/javascripts/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/secure" afterPath="$PROJECT_DIR$/modules/secure" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Categories/show.html" afterPath="$PROJECT_DIR$/app/views/Categories/show.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Customers/show.html" afterPath="$PROJECT_DIR$/app/views/Customers/show.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Products/show.html" afterPath="$PROJECT_DIR$/app/views/Products/show.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Suppliers/show.html" afterPath="$PROJECT_DIR$/app/views/Suppliers/show.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Users/show.html" afterPath="$PROJECT_DIR$/app/views/Users/show.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/application.conf" afterPath="$PROJECT_DIR$/conf/application.conf" />
     </list>
     <ignored path="Facturio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -182,10 +133,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="show.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/Customers/show.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="97" selection-start="2175" selection-end="2175" vertical-scroll-proportion="0.59042555">
+            <state line="57" column="97" selection-start="2175" selection-end="2175" vertical-scroll-proportion="-13.875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.conf" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/conf/application.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="264" selection-end="264" vertical-scroll-proportion="0.26041666">
               <folding />
             </state>
           </provider>
@@ -218,7 +178,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/Products/index.html" />
         <option value="$PROJECT_DIR$/app/views/Suppliers/index.html" />
         <option value="$PROJECT_DIR$/app/views/Users/index.html" />
         <option value="$PROJECT_DIR$/app/views/Products/add.html" />
@@ -234,6 +193,7 @@
         <option value="$PROJECT_DIR$/app/views/Customers/add.html" />
         <option value="$PROJECT_DIR$/app/controllers/Customers.java" />
         <option value="$PROJECT_DIR$/app/views/Customers/show.html" />
+        <option value="$PROJECT_DIR$/conf/application.conf" />
       </list>
     </option>
   </component>
@@ -937,11 +897,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/Categories/add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="16" selection-start="2269" selection-end="2269" vertical-scroll-proportion="0.84042555" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Categories/show.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="74" column="69" selection-start="2432" selection-end="2432" vertical-scroll-proportion="0.5320624" />
@@ -1036,7 +991,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Customers/show.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="97" selection-start="2175" selection-end="2175" vertical-scroll-proportion="0.59042555">
+        <state line="57" column="97" selection-start="2175" selection-end="2175" vertical-scroll-proportion="-13.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="264" selection-end="264" vertical-scroll-proportion="0.26041666">
           <folding />
         </state>
       </provider>
