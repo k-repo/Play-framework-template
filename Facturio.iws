@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/User.java" afterPath="$PROJECT_DIR$/app/models/User.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Users.java" afterPath="$PROJECT_DIR$/app/controllers/Users.java" />
     </list>
     <ignored path="Facturio.iws" />
@@ -150,10 +151,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Users.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Users.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/Users.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="28" selection-start="456" selection-end="456" vertical-scroll-proportion="0.35714287">
+            <state line="21" column="24" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="30" selection-start="435" selection-end="435" vertical-scroll-proportion="0.3327787">
               <folding />
             </state>
           </provider>
@@ -186,7 +196,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/Users/index.html" />
         <option value="$PROJECT_DIR$/app/views/Products/add.html" />
         <option value="$PROJECT_DIR$/app/views/Suppliers/add.html" />
         <option value="$PROJECT_DIR$/app/views/Categories/add.html" />
@@ -202,6 +211,7 @@
         <option value="$PROJECT_DIR$/app/views/Customers/show.html" />
         <option value="$PROJECT_DIR$/conf/application.conf" />
         <option value="$PROJECT_DIR$/app/controllers/Users.java" />
+        <option value="$PROJECT_DIR$/app/models/User.java" />
       </list>
     </option>
   </component>
@@ -905,16 +915,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/Suppliers/show.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="8" selection-start="3177" selection-end="3177" vertical-scroll-proportion="0.84042555">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Products/add.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="0" selection-start="3817" selection-end="3833" vertical-scroll-proportion="0.8729282" />
+        <state line="133" column="0" selection-start="3817" selection-end="3833" vertical-scroll-proportion="0.8729282">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Products/show.html">
@@ -1008,7 +1013,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/Users.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="28" selection-start="456" selection-end="456" vertical-scroll-proportion="0.35714287">
+        <state line="21" column="24" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="30" selection-start="435" selection-end="435" vertical-scroll-proportion="0.3327787">
           <folding />
         </state>
       </provider>
