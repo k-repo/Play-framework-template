@@ -6,6 +6,7 @@ import play.db.jpa.Model;
 import play.libs.Crypto;
 
 import javax.persistence.Entity;
+import java.util.Date;
 
 /**
  * Created with IntelliJ IDEA.
@@ -38,7 +39,7 @@ public class Customer extends Model {
     @Required
     public String adress;
 
-
+    public Date date;
 
 
 

@@ -48,8 +48,12 @@
                    <textarea name="adress" id="adress" class="form-control  " placeholder="Adress"> </textarea>
 
 
-
-
+               <!-- test date picker -->
+                Meeting date
+                <div class="input-group date">
+                    <input type="text" class="form-control" id="datepick" name="datepick"><span class="input-group-addon"><i class="glyphicon glyphicon-th"></i></span>
+                </div>
+                <!-- end test -->
 
                 <br/>
                     <br/>
@@ -97,17 +101,4 @@
 
 
 
-<script type="text/javascript" charset="utf-8">
-    $(function() {
-        // Expose the form
-        $('form').click(function() {
-            $('form').expose({api: true}).load();
-        });
-
-        // If there is an error, focus to form
-        if($('form .error').size()) {
-            $('form').expose({api: true, loadSpeed: 0}).load();
-            $('form input[type=text]').get(0).focus();
-        }
-    });
-</script>
+#{form_effect /}

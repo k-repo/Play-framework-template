@@ -6,6 +6,10 @@ import play.data.validation.Required;
 import play.i18n.Messages;
 import play.mvc.Controller;
 
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -56,6 +60,7 @@ public class Customers extends Controller {
 
     public static void add(){
         Customer customer = new Customer();
+        customer.date = new Date();
         render(customer);
     }
 
@@ -72,7 +77,7 @@ public class Customers extends Controller {
 
     }
 
-    public static void save(@Required String email, @Required String firstname, @Required String lastname, @Required String companyName, @Required String phone, String fax, @Required String adress){
+    public static void save(@Required String email, @Required String firstname, @Required String lastname, @Required String companyName, @Required String phone, String fax, @Required String adress, String datepick){
         if (validation.hasErrors() ) {
             flash.error(Messages.get("scaffold.validation"));
             validation.keep();
@@ -87,6 +92,13 @@ public class Customers extends Controller {
         customer.fax = fax;
         customer.adress = adress;
         customer.email = email;
+        DateFormat formatter = new SimpleDateFormat("dd-mm-yyyy");
+
+        try {
+            customer.date = formatter.parse(datepick);
+        } catch (ParseException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        }
         customer.save();
         flash.success("You added the new customer %s", customer.companyName);
         index();
@@ -94,7 +106,7 @@ public class Customers extends Controller {
 
     }
 
-    public static void update(Long id,@Required String email, @Required String firstname, @Required String lastname, @Required String companyName, @Required String phone, String fax, @Required String adress){
+    public static void update(Long id,@Required String email, @Required String firstname, @Required String lastname, @Required String companyName, @Required String phone, String fax, @Required String adress,String datepick){
         if (validation.hasErrors() ) {
             flash.error(Messages.get("scaffold.validation"));
             validation.keep();
@@ -110,6 +122,14 @@ public class Customers extends Controller {
         customer.fax = fax;
         customer.email = email;
         customer.adress = adress;
+
+        DateFormat formatter = new SimpleDateFormat("dd-mm-yyyy");
+        try {
+            customer.date = formatter.parse(datepick);
+        } catch (ParseException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        }
+
         customer.save();
         flash.success("You updated the customer %s", customer.companyName);
         index();

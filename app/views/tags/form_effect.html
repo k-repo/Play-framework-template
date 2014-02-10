@@ -11,4 +11,27 @@
             $('form input[type=text]').get(0).focus();
         }
     });
+
+
+
+
+</script>
+
+
+<script type="text/javascript" charset="utf-8">
+    $(function () {
+
+        var $j = jQuery.noConflict();
+        $j("#datepick").datepicker({
+            todayBtn: "linked",
+            orientation: "bottom right",
+            format: "dd-mm-yyyy",
+            multidate: false,
+            language: "en",
+            autoclose: true
+            /* startDate: -1,
+            endDate: +2,     */
+        });
+
+    });
 </script>

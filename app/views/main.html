@@ -10,17 +10,24 @@
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
 
 
+
+
+        #{get 'moreStyles' /}
+        <link rel="shortcut icon" type="image/png" href="@{'/public/images/favicon.png'}">
+        <script src="@{'/public/javascripts/jquery-tools.js'}" type="text/javascript" charset="${_response_encoding}"></script>
+        <script src="@{'/public/javascripts/jquery2.js'}" type="text/javascript" charset="${_response_encoding}"></script>
+         #{get 'moreScripts' /}
+
+
         <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/main.css'}">
 
         <!-- boots css -->
         <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/bootstrap.css'}">
         <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/bootstrap-theme.css'}">
-        <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/bootstrap-glyphicons.css'}" rel="stylesheet">
+        <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/bootstrap-glyphicons.css'}" >
+        <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/datepicker.css'}" >
 
-        #{get 'moreStyles' /}
-        <link rel="shortcut icon" type="image/png" href="@{'/public/images/favicon.png'}">
-        <script src="@{'/public/javascripts/jquery2.js'}" type="text/javascript" charset="${_response_encoding}"></script>
-        #{get 'moreScripts' /}
+
     </head>
 
 
@@ -85,6 +92,12 @@
 
 
     <script src="@{'/public/javascripts/bootstrap.min.js'}" type="text/javascript" charset="${_response_encoding}"></script>
+    <script src="@{'/public/javascripts/bootstrap-datepicker.js'}" type="text/javascript" charset="${_response_encoding}"></script>
+    <script src="@{'/public/javascripts/locales/bootstrap-datepicker.fr.js'}" type="text/javascript" charset="${_response_encoding}"></script>
     <script src="@{'/public/javascripts/main.js'}" type="text/javascript" charset="${_response_encoding}"></script>
-    <script src="@{'/public/javascripts/jquery-tools.js'}" type="text/javascript" charset="${_response_encoding}"></script>
+
+
+
+
+
 </html>

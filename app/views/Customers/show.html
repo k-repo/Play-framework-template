@@ -52,7 +52,12 @@
 
 
 
-
+                    <!-- test date picker -->
+                    Meeting date
+                    <div class="input-group date">
+                        <input type="text" class="form-control" value="#{if customer.date != null} ${customer.date.format("dd-mm-yyyy")} #{/if}" id="datepick" name="datepick"><span class="input-group-addon"><i class="glyphicon glyphicon-th"></i></span>
+                    </div>
+                    <!-- end test -->
 
 
                     <br/>
