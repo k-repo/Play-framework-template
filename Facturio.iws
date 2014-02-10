@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/Chambre.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facturio.iws" afterPath="$PROJECT_DIR$/Facturio.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/application.conf" afterPath="$PROJECT_DIR$/conf/application.conf" />
     </list>
     <ignored path="Facturio.iws" />
@@ -145,7 +146,7 @@
       <file leaf-file-name="application.conf" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/conf/application.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="6" selection-start="625" selection-end="625" vertical-scroll-proportion="0.5208333">
+            <state line="14" column="6" selection-start="375" selection-end="375" vertical-scroll-proportion="0.36458334">
               <folding />
             </state>
           </provider>
@@ -998,7 +999,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/conf/application.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="6" selection-start="625" selection-end="625" vertical-scroll-proportion="0.5208333">
+        <state line="14" column="6" selection-start="375" selection-end="375" vertical-scroll-proportion="0.36458334">
           <folding />
         </state>
       </provider>
