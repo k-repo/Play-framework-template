@@ -71,7 +71,7 @@ public class Categories extends Controller{
 
         Category category = Category.findById(id);
         category.delete();
-        flash.success("Category %s deleted", category.name);
+        flash.success(Messages.get("general.delete",category.name), category.name);
         index();
 
     }
@@ -112,7 +112,7 @@ public class Categories extends Controller{
         Category category = Category.findById(id);
         category.name = name;
         category.description = description;
-        flash.success("You added the new category %s", category.name);
+        flash.success("You updated the category %s", category.name);
         category.save()  ;
         index();
 

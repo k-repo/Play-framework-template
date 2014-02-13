@@ -37,24 +37,31 @@
     <body id="body" data-dateformat="${play.configuration['date.format']}">
 
 
+
+
     #{headerNavigation /}
 
-    #{menu /}
-
-    <div class="container-fluid">
+    <div class="container-fluid col-md-offset-0">
 
 
 
         <div class="">
             <div class="col-md-9">
 
+            <div id="messages">
             #{if flash.success}
-                <div class="alert alert-success">
+                <div class="alert alert-info">
                     <a class="close" data-dismiss="alert" href="#">×</a>
                     <strong>${play.i18n.Messages.get(flash.success)}</strong>
                 </div>
             #{/if}
-
+            #{if flash.error}
+                <div class="alert alert-success">
+                    <a class="close" data-dismiss="alert" href="#">×</a>
+                    <strong>${play.i18n.Messages.get(flash.error)}</strong>
+                </div>
+            #{/if}
+            </div>
 
 
 
@@ -84,7 +91,7 @@
 
     </div>
 
-
+    #{menu /}
 
 
     </body>

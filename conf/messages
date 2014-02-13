@@ -15,3 +15,26 @@ isAdmin=User is admin
 
 scaffold.validation=You have to fill all the fields
 
+# General msg
+general.delete = %s deleted
+general.create = %s created
+general.update = %s updated
+general.new = New
+general.search = Search for
+general.conf = Confirm the operation ?
+general.conf.del = You are about delete a
+general.close = Close
+general.save = Save changes
+
+
+# Category msg
+cat.label = Category
+cats.label = Categories
+cat.name = Name
+cat.desc = Description
+
+#Product msg
+pro.label = Product
+pros.label = Products
+
+
