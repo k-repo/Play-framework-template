@@ -4,6 +4,7 @@ import models.Category;
 import models.Role;
 import models.User;
 import play.data.validation.Required;
+import play.db.jpa.Blob;
 import play.i18n.Messages;
 import play.mvc.Controller;
 import play.mvc.With;
@@ -84,7 +85,7 @@ public class Categories extends Controller{
 
     }
 
-    public static void save(@Required String name, @Required String description){
+    public static void save(@Required String name, @Required String description, Blob attachment){
         if (validation.hasErrors() ) {
             flash.error(Messages.get("scaffold.validation"));
             validation.keep();
@@ -94,6 +95,7 @@ public class Categories extends Controller{
         Category category = new Category();
         category.name = name;
         category.description = description;
+        category.attachment = attachment;
         flash.success("You added the new category %s", category.name);
         category.save()  ;
         index();
@@ -115,9 +117,18 @@ public class Categories extends Controller{
         flash.success("You updated the category %s", category.name);
         category.save()  ;
         index();
+    }
 
 
 
+    public static void getUploadedFile(Long id){
+        Category c = Category.findById(id);
+
+        if(c != null && c.attachment != null){
+            response.setContentTypeIfNotSet(c.attachment.type());
+            java.io.InputStream binaryData = c.attachment.get();
+            renderBinary(binaryData);
+        }
     }
 
 

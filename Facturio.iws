@@ -2,100 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/jsplumn/anchors.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/jsplumn/connection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/jsplumn/connector-editors.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/jsplumn/connectors-bezier.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/jsplumn/connectors-flowchart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/jsplumn/connectors-statemachine.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/jsplumn/defaults.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/jsplumb/demo-all.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/jsplumn/demo-helper-jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/jsplumn/demo-list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/jsplumb/demo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/jsplumn/demo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/jsplumn/dom-adapter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/jsplumn/dom.jsPlumb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/jsplumn/drag.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/jsplumn/endpoint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/jquery-1.9.0-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/jsplumn/jquery-ui-1.9.2-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/jsplumn/jquery.jsPlumb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/jsplumn/jquery.ui.touch-punch.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/jsplumn/jsBezier-0.6-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/jsplumn/jsPlumb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/jsplumn/jsplumb-geom-0.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/jsplumn/mootools.jsPlumb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/jsplumn/overlays-guidelines.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/jsplumn/renderers-canvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/jsplumn/renderers-svg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/jsplumn/renderers-vml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/jsplumn/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/jsplumn/yui.jsPlumb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Categories.java" afterPath="$PROJECT_DIR$/app/controllers/Categories.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Category.java" afterPath="$PROJECT_DIR$/app/models/Category.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facturio.iws" afterPath="$PROJECT_DIR$/Facturio.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Application_index.html" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Application_index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_main.html" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.ar.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.ar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.az.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.az.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.bg.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.bg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.ca.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.ca.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.cs.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.cs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.cy.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.cy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.da.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.da.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.de.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.de.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.el.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.el.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.es.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.es.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.et.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.et.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.fa.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.fa.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.fi.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.fi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.fr.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.fr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.gl.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.gl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.he.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.he.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.hr.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.hr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.hu.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.hu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.id.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.id.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.is.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.is.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.it.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.it.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.ja.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.ja.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/bootstrap-datepicker.js" afterPath="$PROJECT_DIR$/public/javascripts/bootstrap-datepicker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.ka.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.ka.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.kk.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.kk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.kr.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.kr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.lt.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.lt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.lv.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.lv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.mk.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.mk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.ms.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.ms.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.nb.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.nb.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.nl-BE.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.nl-BE.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.nl.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.nl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.no.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.no.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.pl.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.pl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.pt-BR.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.pt-BR.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.pt.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.pt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.ro.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.ro.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.rs-latin.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.rs-latin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.rs.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.rs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.ru.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.ru.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.sk.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.sk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.sl.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.sl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.sq.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.sq.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.sv.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.sv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.sw.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.sw.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.th.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.th.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.tr.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.tr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.ua.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.ua.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.vi.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.vi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.zh-CN.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.zh-CN.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.zh-TW.js" afterPath="$PROJECT_DIR$/public/javascripts/locales/bootstrap-datepicker.zh-TW.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tags/confirmation.html" afterPath="$PROJECT_DIR$/app/views/tags/confirmation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/datepicker.css" afterPath="$PROJECT_DIR$/public/stylesheets/datepicker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Categories/add.html" afterPath="$PROJECT_DIR$/app/views/Categories/add.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Application/index.html" afterPath="$PROJECT_DIR$/app/views/Application/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Categories/index.html" afterPath="$PROJECT_DIR$/app/views/Categories/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/main.html" afterPath="$PROJECT_DIR$/app/views/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/messages" afterPath="$PROJECT_DIR$/conf/messages" />
     </list>
     <ignored path="Facturio.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1392334543934" ignored="false" />
-    <file path="/main.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1392330891602" ignored="false" />
-    <file path="/Dummy.txt" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1392328229915" ignored="false" />
+    <file path="/index.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1392999618173" ignored="false" />
+    <file path="/main.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1392997071247" ignored="false" />
+    <file path="/Dummy.txt" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1392998830745" ignored="false" />
     <file path="/main.css" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1391784607428" ignored="false" />
     <file path="/fragment.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389497997794" ignored="false" />
     <file path="/Personne.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1386880083359" ignored="false" />
@@ -108,7 +30,7 @@
     <file path="/Bootstrap.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389496206226" ignored="false" />
     <file path="/login.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1391790514354" ignored="false" />
     <file path="/Application.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389224263516" ignored="false" />
-    <file path="/messages" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1392326633152" ignored="false" />
+    <file path="/messages" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1392998244813" ignored="false" />
     <file path="/a.dummy" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1391793612038" ignored="false" />
     <file path="/messages.fr" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389494357661" ignored="false" />
     <file path="/Role.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389387569097" ignored="false" />
@@ -117,14 +39,14 @@
     <file path="/search.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389382266600" ignored="false" />
     <file path="/list.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389388645768" ignored="false" />
     <file path="/Roles.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389385872257" ignored="false" />
-    <file path="/Category.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389388245834" ignored="false" />
+    <file path="/Category.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1392997407432" ignored="false" />
     <file path="/Product.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389505731954" ignored="false" />
     <file path="/Products.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389506069289" ignored="false" />
     <file path="/Facture.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389497939662" ignored="false" />
     <file path="/headerNavigation.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389505007639" ignored="false" />
-    <file path="/Categories.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1392327797314" ignored="false" />
+    <file path="/Categories.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1392999570355" ignored="false" />
     <file path="/menu.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389508755187" ignored="false" />
-    <file path="/add.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1392050487534" ignored="false" />
+    <file path="/add.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1392997576211" ignored="false" />
     <file path="/routes" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389415143118" ignored="false" />
     <file path="/show.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1392051536434" ignored="false" />
     <file path="/FactureProduit.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389497715508" ignored="false" />
@@ -159,7 +81,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -196,6 +117,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -205,39 +127,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/Application/index.html">
+      <file leaf-file-name="Categories.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/Categories.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="56" selection-start="658" selection-end="658" vertical-scroll-proportion="0.40035588">
+            <state line="97" column="41" selection-start="2274" selection-end="2274" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/Categories/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="54" column="32" selection-start="1745" selection-end="1745" vertical-scroll-proportion="0.42553192">
               <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo-all.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/jsplumb/demo-all.css">
+      <file leaf-file-name="Category.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/Category.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="112" column="21" selection-start="2042" selection-end="2050" vertical-scroll-proportion="-7.64">
+            <state line="26" column="26" selection-start="470" selection-end="480" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/jsplumb/demo.css">
+      <file leaf-file-name="add.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/Categories/add.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="29" column="26" selection-start="845" selection-end="845" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/main.html">
+      <file leaf-file-name="messages" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/messages">
+          <provider editor-type-id="ResourceBundle">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="0" selection-start="3034" selection-end="3034" vertical-scroll-proportion="-66.25">
+            <state line="27" column="0" selection-start="564" selection-end="580" vertical-scroll-proportion="-9.84">
               <folding />
             </state>
           </provider>
@@ -261,8 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/tags/form_effect.html" />
-        <option value="$PROJECT_DIR$/app/models/Customer.java" />
         <option value="$PROJECT_DIR$/app/views/Customers/add.html" />
         <option value="$PROJECT_DIR$/app/controllers/Customers.java" />
         <option value="$PROJECT_DIR$/app/views/Customers/show.html" />
@@ -270,13 +202,15 @@
         <option value="$PROJECT_DIR$/app/models/User.java" />
         <option value="$PROJECT_DIR$/app/views/tags/confirmation.html" />
         <option value="$PROJECT_DIR$/conf/application.conf" />
+        <option value="$PROJECT_DIR$/public/javascripts/jquery2.js" />
+        <option value="$PROJECT_DIR$/public/stylesheets/jsplumb/demo-all.css" />
+        <option value="$PROJECT_DIR$/app/views/Application/index.html" />
+        <option value="$PROJECT_DIR$/app/views/main.html" />
+        <option value="$PROJECT_DIR$/app/models/Category.java" />
+        <option value="$PROJECT_DIR$/app/views/Categories/add.html" />
         <option value="$PROJECT_DIR$/conf/messages" />
         <option value="$PROJECT_DIR$/app/controllers/Categories.java" />
         <option value="$PROJECT_DIR$/app/views/Categories/index.html" />
-        <option value="$PROJECT_DIR$/public/javascripts/jquery2.js" />
-        <option value="$PROJECT_DIR$/app/views/main.html" />
-        <option value="$PROJECT_DIR$/public/stylesheets/jsplumb/demo-all.css" />
-        <option value="$PROJECT_DIR$/app/views/Application/index.html" />
       </list>
     </option>
   </component>
@@ -380,36 +314,6 @@
               <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Facturio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Facturio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Facturio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsplumb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -430,24 +334,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Facturio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Facturio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Facturio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -757,6 +643,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Facturio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Facturio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Facturio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -773,7 +681,7 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GSE-POC/gsev11-09122013/GSE.ipr" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Facturio.ipr" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
@@ -918,7 +826,6 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -937,6 +844,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1006,9 +914,86 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/Categories.java">
+    <entry file="file://$PROJECT_DIR$/app/models/Category.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="38" selection-start="2736" selection-end="2736" vertical-scroll-proportion="0.0">
+        <state line="26" column="26" selection-start="470" selection-end="480" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Categories/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="26" selection-start="845" selection-end="845" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Categories/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="49" selection-start="1710" selection-end="1710" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#style#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/messages">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="36" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="12" selection-start="419" selection-end="419" vertical-scroll-proportion="-0.10684474" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/jquery2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="79" selection-start="64196" selection-end="64196" vertical-scroll-proportion="0.102389075" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/jquery-1.9.0-min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/Products.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="13" selection-start="446" selection-end="446" vertical-scroll-proportion="0.33163264">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Application/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="17" selection-start="38" selection-end="42" vertical-scroll-proportion="0.026595745" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="26" selection-start="505" selection-end="505" vertical-scroll-proportion="-8.75" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Categories/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="26" selection-start="845" selection-end="845" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="26" selection-start="470" selection-end="480" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1018,111 +1003,23 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="303" selection-end="317" vertical-scroll-proportion="-4.9">
+        <state line="27" column="0" selection-start="564" selection-end="580" vertical-scroll-proportion="-9.84">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/main.js">
+    <entry file="file://$PROJECT_DIR$/app/controllers/Categories.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="12" selection-start="419" selection-end="419" vertical-scroll-proportion="-0.10684474">
+        <state line="97" column="41" selection-start="2274" selection-end="2274" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Categories/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="65" selection-start="4464" selection-end="4464" vertical-scroll-proportion="-3.9795918">
+        <state line="54" column="32" selection-start="1745" selection-end="1745" vertical-scroll-proportion="0.42553192">
           <folding>
-            <element signature="n#style#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/jsplumn/demo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/jsplumn/jquery.ui.touch-punch.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/jsplumn/jsBezier-0.6-min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/jsplumn/anchors.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/jsplumn/demo-helper-jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/jquery2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="79" selection-start="64196" selection-end="64196" vertical-scroll-proportion="0.102389075">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/jquery-1.9.0-min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/jsplumb/demo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="0" selection-start="3034" selection-end="3034" vertical-scroll-proportion="-66.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/jsplumb/demo-all.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="21" selection-start="2042" selection-end="2050" vertical-scroll-proportion="-7.64">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Application/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="56" selection-start="658" selection-end="658" vertical-scroll-proportion="0.40035588">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

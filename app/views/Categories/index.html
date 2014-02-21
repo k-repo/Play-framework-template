@@ -42,6 +42,7 @@
             <tr>
                 <th>&{'cat.name'}</th>
                 <th>&{'cat.desc'}</th>
+                <th>&{'cat.attachment'}</th>
                 <th><span class="glyphicon glyphicon-folder-open"></span></th>
             </tr>
             </thead>
@@ -50,6 +51,12 @@
             <tr id="item-${item.id}">
                 <td>${item.name}</td>
                 <td>${item.description}</td>
+                #{if item.attachment.get() != null}
+                <td><a target="#" href="@{Categories.getUploadedFile(item.id)}">&{'general.download'}</a></td>
+                #{/if}
+                #{else }
+                <td></td>
+                #{/else}
                 <td style="width:10.5%">
                     <a href="@{Categories.show(item.id)}" class="btn btn-sm btn-primary">
                         <span class="glyphicon glyphicon-edit"></span>

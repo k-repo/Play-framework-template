@@ -1,6 +1,7 @@
 package models;
 
 import play.data.validation.Required;
+import play.db.jpa.Blob;
 import play.db.jpa.Model;
 
 import javax.persistence.Entity;
@@ -22,5 +23,7 @@ public class Category extends Model{
 
     @Required
     public String description;
+
+    public Blob attachment;
 
 }
