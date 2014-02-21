@@ -26,7 +26,7 @@ general.conf.del = You are about delete a
 general.close = Close
 general.save = Save changes
 general.download = Download the file
-
+general.attachment = Attachment
 
 # Category msg
 cat.label = Category
@@ -39,5 +39,11 @@ cat.attachment = Attachment
 #Product msg
 pro.label = Product
 pros.label = Products
-
+pro.price = Price
+pro.cat = Category
+pro.supp = Supplier
+pro.qte = Quantity
+pro.name = Product name
+pro.desc = Product description
+pro.attachment = Attachment
 

@@ -1,5 +1,5 @@
 #{extends 'main.html' /}
-#{set title:'Home' /}
+#{set title:'new product' /}
 
 
 
@@ -10,7 +10,7 @@
 
     <div id="wrap">
         <div class="row pad">
-        #{form  @Products.save(product.id)  }
+        #{form  @Products.save(product.id), enctype:'multipart/form-data'  }
             <div class="col-md-5 col-md-offset-1">
 
 
@@ -41,6 +41,8 @@
 
                    <input type="text" name="price" id="price" class="form-control  " placeholder="Price"/>
 
+
+                   <input type="file" name="attachment" id="attachment" class="form-control  " placeholder="Attachment"/>
 
 
             <div class="">

@@ -1,6 +1,7 @@
 package models;
 
 import play.data.validation.Required;
+import play.db.jpa.Blob;
 import play.db.jpa.Model;
 
 import javax.persistence.Entity;
@@ -32,6 +33,8 @@ public class Product extends Model{
     public Long supplierId;
 
     public Long qte;
+
+    public Blob attachment;
 
     public Product() {
         this.qte = 0L;

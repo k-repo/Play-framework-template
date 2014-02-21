@@ -103,7 +103,7 @@ public class Categories extends Controller{
 
     }
 
-    public static void update(Long id, @Required String name, @Required String description){
+    public static void update(Long id, @Required String name, @Required String description, Blob attachment){
         if (validation.hasErrors() ) {
             flash.error(Messages.get("scaffold.validation"));
             validation.keep();
@@ -114,6 +114,7 @@ public class Categories extends Controller{
         Category category = Category.findById(id);
         category.name = name;
         category.description = description;
+        category.attachment = attachment;
         flash.success("You updated the category %s", category.name);
         category.save()  ;
         index();
