@@ -27,6 +27,7 @@ general.close = Close
 general.save = Save changes
 general.download = Download the file
 general.attachment = Attachment
+general.item = an Item
 
 # Category msg
 cat.label = Category
