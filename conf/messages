@@ -51,3 +51,9 @@ pro.attachment = Attachment
 # Users msg
 user.label = User
 
+# Customers msg
+cus.label = Customer
+
+# Suppliers msg
+sup.label = Suppliers
+
