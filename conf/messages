@@ -47,3 +47,7 @@ pro.name = Product name
 pro.desc = Product description
 pro.attachment = Attachment
 
+
+# Users msg
+user.label = User
+

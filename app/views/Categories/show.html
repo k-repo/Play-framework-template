@@ -10,7 +10,7 @@
 
     <div id="wrap">
         <div class="row pad">
-        #{form  @Categories.update()  }
+        #{form  @Categories.update(), enctype:'multipart/form-data'  }
             <div class="col-md-5 col-md-offset-1">
 
 
@@ -39,6 +39,16 @@
 
                     <textarea value="${category.description}" name="description"  id="description" class="form-control  "
                            placeholder="Description">${category.description}</textarea>
+
+
+                    <input type="file" name="attachment" id="attachment" class="form-control  " placeholder="Attachment"/>
+
+
+
+                    #{if category.attachment.get() != null}
+                        <a target="#" href="@{Categories.getUploadedFile(category.id)}">&{'general.download'}</a>
+                    #{/if}
+
 
 
                     <input type="hidden" name="id" value="${category.id}">

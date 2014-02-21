@@ -10,7 +10,7 @@
 
     <div id="wrap">
         <div class="row pad">
-        #{form  @Products.update()  }
+        #{form  @Products.update(), enctype:'multipart/form-data'  }
             <div class="col-md-5 col-md-offset-1">
 
 
@@ -44,6 +44,19 @@
 
 
                     <input value="${product.price}" type="text" name="price" id="price" class="form-control  " placeholder="Price"/>
+
+
+                    <input type="file" name="attachment" id="attachment" class="form-control  " placeholder="Attachment"/>
+
+                    <hr>
+
+
+                    #{if product.attachment.get() != null}
+                        <a target="#" href="@{Products.getUploadedFile(product.id)}">&{'general.download'}</a>
+                    #{/if}
+
+                    <hr>
+
 
                     #{if category != null}
                         Category : ${category.name}
