@@ -28,7 +28,8 @@ body{
 
 
 .menu {
-    margin-left: 10px;
+    margin-left: 2%;
+    margin-right: 9%;
 }
 
 
@@ -209,4 +210,38 @@ legend{
 .panel-heading span {
     margin-top: -20px;
     font-size: 15px;
+}
+
+.navbar {
+    border-radius: 0px !important;
+}
+
+.navbar-default .navbar-brand {
+    font-size: 20px !important;
+}
+
+.navbar-custom {
+    margin-top: -20px;
+}
+
+.navbar-right-pad {
+    padding-right: 8%;
+}
+
+
+.panel-default > .panel-heading {
+    background-image: -webkit-linear-gradient(top, #ffffff 0%, #f8f8f8 100%) !important;
+    background-image: linear-gradient(to bottom, #ffffff 0%, #f8f8f8 100%) !important;
+    background-repeat: repeat-x;
+}
+
+.profile-img
+{
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
 }

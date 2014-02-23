@@ -106,7 +106,7 @@ public class Users extends Controller {
         User user = new User();
         user.firstname = firstname;
         user.lastname = lastname;
-        user.fullname = firstname +" "+ lastname;
+        user.fullname = email;
         user.email = email;
         user.password = password;
         user.roleId = roleId;
@@ -129,7 +129,7 @@ public class Users extends Controller {
 
         user.firstname = firstname;
         user.lastname = lastname;
-        user.fullname = firstname +" "+ lastname;
+        user.fullname = email;
         user.email = email;
         user.password = password;
         user.roleId = roleId;

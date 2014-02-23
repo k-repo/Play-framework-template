@@ -2,30 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tags/confirmation.html" afterPath="$PROJECT_DIR$/app/views/tags/confirmation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/tags/headerDashboard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/classes/controllers/Users.class" afterPath="$PROJECT_DIR$/tmp/classes/controllers/Users.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Users" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Users" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facturio.iws" afterPath="$PROJECT_DIR$/Facturio.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Users.java" afterPath="$PROJECT_DIR$/app/controllers/Users.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Secure_layout.html" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Secure_layout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Secure_login.html" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Secure_login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_main.html" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_headerNavigation.html" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_headerNavigation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_menu.html" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tags/headerNavigation.html" afterPath="$PROJECT_DIR$/app/views/tags/headerNavigation.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Categories/index.html" afterPath="$PROJECT_DIR$/app/views/Categories/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Customers/index.html" afterPath="$PROJECT_DIR$/app/views/Customers/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Products/index.html" afterPath="$PROJECT_DIR$/app/views/Products/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Suppliers/index.html" afterPath="$PROJECT_DIR$/app/views/Suppliers/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Users/index.html" afterPath="$PROJECT_DIR$/app/views/Users/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/messages" afterPath="$PROJECT_DIR$/conf/messages" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Secure/layout.html" afterPath="$PROJECT_DIR$/app/views/Secure/layout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Secure/login.html" afterPath="$PROJECT_DIR$/app/views/Secure/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/main.css" afterPath="$PROJECT_DIR$/public/stylesheets/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/main.html" afterPath="$PROJECT_DIR$/app/views/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tags/menu.html" afterPath="$PROJECT_DIR$/app/views/tags/menu.html" />
     </list>
     <ignored path="Facturio.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393006683067" ignored="false" />
-    <file path="/main.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1392997071247" ignored="false" />
-    <file path="/Dummy.txt" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1392998830745" ignored="false" />
-    <file path="/main.css" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1391784607428" ignored="false" />
+    <file path="/main.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393191787486" ignored="false" />
+    <file path="/Dummy.txt" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393179091225" ignored="false" />
+    <file path="/main.css" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393189199799" ignored="false" />
     <file path="/fragment.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389497997794" ignored="false" />
     <file path="/Personne.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1386880083359" ignored="false" />
     <file path="/Chambre.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1386880177365" ignored="false" />
-    <file path="/Users.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1392056420929" ignored="false" />
+    <file path="/Users.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393190859005" ignored="false" />
     <file path="/User.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389387554272" ignored="false" />
     <file path="/Security.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389497274713" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/jsp/lib/jsp-impl.jar!/standardSchemas/jspxml2.xsd" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1386881605136" ignored="false" />
-    <file path="/layout.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1391793021427" ignored="false" />
+    <file path="/layout.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393191993479" ignored="false" />
     <file path="/Bootstrap.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389496206226" ignored="false" />
-    <file path="/login.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1391790514354" ignored="false" />
+    <file path="/login.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393191597007" ignored="false" />
     <file path="/Application.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389224263516" ignored="false" />
     <file path="/messages" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393006903114" ignored="false" />
     <file path="/a.dummy" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1391793612038" ignored="false" />
@@ -40,9 +54,9 @@
     <file path="/Product.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393000169996" ignored="false" />
     <file path="/Products.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393000844645" ignored="false" />
     <file path="/Facture.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389497939662" ignored="false" />
-    <file path="/headerNavigation.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389505007639" ignored="false" />
+    <file path="/headerNavigation.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393181234200" ignored="false" />
     <file path="/Categories.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393000814037" ignored="false" />
-    <file path="/menu.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389508755187" ignored="false" />
+    <file path="/menu.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393187921045" ignored="false" />
     <file path="/add.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393000713152" ignored="false" />
     <file path="/routes" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389415143118" ignored="false" />
     <file path="/show.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393002641499" ignored="false" />
@@ -56,7 +70,7 @@
     <file path="/Purchases.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389500612577" ignored="false" />
     <file path="/SweetController.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389500417514" ignored="false" />
     <file path="/bootstrap-glyphicons.css" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1391786147555" ignored="false" />
-    <file path="/*.regexp" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1392326738353" ignored="false" />
+    <file path="/*.regexp" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393188112150" ignored="false" />
     <file path="/form_effect.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1392050080849" ignored="false" />
     <file path="/jquery2.js" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1392044957698" ignored="false" />
     <file path="/datepicker.css" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1392049726139" ignored="false" />
@@ -65,6 +79,7 @@
     <file path="$PROJECT_DIR$/../bss-dev/app/views/tags/headerNavigation.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1392304166681" ignored="false" />
     <file path="/demo-all.css" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1392334324923" ignored="false" />
     <file path="/confirmation.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393006910159" ignored="false" />
+    <file path="/headerDashboard.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393182658569" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,46 +140,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/Categories/index.html">
+      <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/Secure/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="0" selection-start="2995" selection-end="3035" vertical-scroll-proportion="-9.375">
+            <state line="6" column="6" selection-start="62" selection-end="62" vertical-scroll-proportion="-1.8367347">
+              <folding>
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#form#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="87" column="0" selection-start="2406" selection-end="2406" vertical-scroll-proportion="-13.791667">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/Customers/index.html">
+      <file leaf-file-name="layout.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/Secure/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="0" selection-start="2799" selection-end="2839" vertical-scroll-proportion="-6.875">
-              <folding />
+            <state line="72" column="28" selection-start="2643" selection-end="2643" vertical-scroll-proportion="0.5580589">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/Products/index.html">
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="0" selection-start="3110" selection-end="3149" vertical-scroll-proportion="-5.2083335">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/Suppliers/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="0" selection-start="2835" selection-end="2835" vertical-scroll-proportion="-4.9166665">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/Users/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="0" selection-start="2680" selection-end="2716" vertical-scroll-proportion="0.35106382">
+            <state line="246" column="1" selection-start="6895" selection-end="6895" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -188,26 +204,27 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/Categories/add.html" />
-        <option value="$PROJECT_DIR$/app/controllers/Categories.java" />
-        <option value="$PROJECT_DIR$/app/controllers/Products.java" />
-        <option value="$PROJECT_DIR$/app/views/Products/add.html" />
-        <option value="$PROJECT_DIR$/app/views/Categories/show.html" />
-        <option value="$PROJECT_DIR$/app/views/Products/show.html" />
-        <option value="$PROJECT_DIR$/public/javascripts/main.js" />
-        <option value="$PROJECT_DIR$/public/stylesheets/main.css" />
-        <option value="$PROJECT_DIR$/app/views/Application/index.html" />
-        <option value="$PROJECT_DIR$/app/views/Users/index.html" />
+        <option value="$PROJECT_DIR$/app/views/tags/headerDashboard" />
+        <option value="$PROJECT_DIR$/app/views/tags/headerDashboard.html" />
+        <option value="$PROJECT_DIR$/app/views/tags/headerNavigation.html" />
+        <option value="$PROJECT_DIR$/app/views/tags/menu.html" />
         <option value="$PROJECT_DIR$/app/views/Categories/index.html" />
-        <option value="$PROJECT_DIR$/conf/messages" />
-        <option value="$PROJECT_DIR$/app/views/tags/confirmation.html" />
         <option value="$PROJECT_DIR$/app/views/Customers/index.html" />
         <option value="$PROJECT_DIR$/app/views/Products/index.html" />
         <option value="$PROJECT_DIR$/app/views/Suppliers/index.html" />
+        <option value="$PROJECT_DIR$/app/views/Users/index.html" />
+        <option value="$PROJECT_DIR$/app/views/Users/add.html" />
+        <option value="$PROJECT_DIR$/app/Bootstrap.java" />
+        <option value="$PROJECT_DIR$/app/controllers/Users.java" />
+        <option value="$PROJECT_DIR$/public/stylesheets/main.css" />
+        <option value="$PROJECT_DIR$/app/views/main.html" />
+        <option value="$PROJECT_DIR$/app/views/Secure/login.html" />
+        <option value="$PROJECT_DIR$/app/views/Secure/layout.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="1366" />
     <option name="y" value="2" />
     <option name="width" value="1366" />
     <option name="height" value="766" />
@@ -286,7 +303,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -462,85 +483,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Suppliers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Facturio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Facturio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Facturio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Secure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Facturio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Facturio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Facturio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Products" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Facturio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Facturio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Facturio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Customers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -588,11 +531,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Facturio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Facturio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Facturio" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -604,14 +565,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="OverrideImplement.combined" value="true" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Facturio.ipr" />
     <property name="MemberChooser.showClasses" value="true" />
-    <property name="GoToClass.includeLibraries" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RecentsManager">
@@ -647,6 +608,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -675,19 +649,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -701,13 +662,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -731,6 +685,13 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <list size="0" />
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -747,12 +708,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="2" width="1366" height="766" extended-state="6" />
+    <frame x="1366" y="2" width="1366" height="766" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -767,11 +729,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24166666" sideWeight="0.67145133" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24090908" sideWeight="0.67145133" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -841,118 +802,135 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/Products.java">
+    <entry file="file://$PROJECT_DIR$/app/views/tags/headerNavigation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="127" selection-start="2968" selection-end="2968" vertical-scroll-proportion="0.0">
+        <state line="37" column="63" selection-start="1815" selection-end="1815" vertical-scroll-proportion="0.39892185">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Products/add.html">
+    <entry file="file://$PROJECT_DIR$/app/views/tags/menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="19" selection-start="1225" selection-end="1225" vertical-scroll-proportion="0.5053192">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Categories/add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="16" selection-start="1154" selection-end="1257" vertical-scroll-proportion="-13.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Products/show.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="20" selection-start="1704" selection-end="1704" vertical-scroll-proportion="0.61170214">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Categories/show.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="20" selection-start="1270" selection-end="1576" vertical-scroll-proportion="0.41594455">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Application/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="185" column="123" selection-start="5235" selection-end="5235" vertical-scroll-proportion="3.4176776">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="2" selection-start="2278" selection-end="2278" vertical-scroll-proportion="0.9500832">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="200" column="1" selection-start="6134" selection-end="6134" vertical-scroll-proportion="0.9500832">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="40" selection-start="73" selection-end="90" vertical-scroll-proportion="-2.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/messages">
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="22" selection-start="655" selection-end="655" vertical-scroll-proportion="-11.88">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tags/confirmation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="95" selection-start="428" selection-end="428" vertical-scroll-proportion="-3.125">
+        <state line="13" column="28" selection-start="581" selection-end="581" vertical-scroll-proportion="0.54469275">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Categories/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="0" selection-start="2995" selection-end="3035" vertical-scroll-proportion="-9.375">
-          <folding />
+        <state line="59" column="16" selection-start="1945" selection-end="1945" vertical-scroll-proportion="-2.122449">
+          <folding>
+            <element signature="n#style#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Customers/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="0" selection-start="2799" selection-end="2839" vertical-scroll-proportion="-6.875">
-          <folding />
+        <state line="56" column="16" selection-start="1740" selection-end="1740" vertical-scroll-proportion="-4.6666665">
+          <folding>
+            <element signature="n#style#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Products/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="0" selection-start="3110" selection-end="3149" vertical-scroll-proportion="-5.2083335">
-          <folding />
+        <state line="63" column="16" selection-start="2058" selection-end="2058" vertical-scroll-proportion="-4.6666665">
+          <folding>
+            <element signature="n#style#0;n#td#6;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Suppliers/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="0" selection-start="2835" selection-end="2835" vertical-scroll-proportion="-4.9166665">
-          <folding />
+        <state line="56" column="16" selection-start="1740" selection-end="1740" vertical-scroll-proportion="-4.6666665">
+          <folding>
+            <element signature="n#style#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Users/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="0" selection-start="2680" selection-end="2716" vertical-scroll-proportion="0.35106382">
+        <state line="58" column="60" selection-start="1848" selection-end="1848" vertical-scroll-proportion="0.48044693">
+          <folding>
+            <element signature="n#style#0;n#td#3;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Users/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="59" selection-start="368" selection-end="368" vertical-scroll-proportion="-8.416667">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../play/modules/secure/app/controllers/Secure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="51" selection-start="2491" selection-end="2491" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Bootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="27" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="43" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="131" column="29" selection-start="3228" selection-end="3228" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="246" column="1" selection-start="6895" selection-end="6895" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="0" selection-start="2406" selection-end="2406" vertical-scroll-proportion="-13.791667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Secure/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="6" selection-start="62" selection-end="62" vertical-scroll-proportion="-1.8367347">
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#form#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Secure/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="28" selection-start="2643" selection-end="2643" vertical-scroll-proportion="0.5580589">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
