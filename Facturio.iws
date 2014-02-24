@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facturio.iws" afterPath="$PROJECT_DIR$/Facturio.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Application_index.html" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Application_index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_headerNavigation.html" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_headerNavigation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tags/boxes.html" afterPath="$PROJECT_DIR$/app/views/tags/boxes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tags/headerDashboard.html" afterPath="$PROJECT_DIR$/app/views/tags/headerDashboard.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tags/headerNavigation.html" afterPath="$PROJECT_DIR$/app/views/tags/headerNavigation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Application/index.html" afterPath="$PROJECT_DIR$/app/views/Application/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tags/panels.html" afterPath="$PROJECT_DIR$/app/views/tags/panels.html" />
     </list>
     <ignored path="Facturio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,7 +36,7 @@
     <file path="/Product.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393000169996" ignored="false" />
     <file path="/Products.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393000844645" ignored="false" />
     <file path="/Facture.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389497939662" ignored="false" />
-    <file path="/headerNavigation.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393181234200" ignored="false" />
+    <file path="/headerNavigation.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393203268782" ignored="false" />
     <file path="/Categories.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393000814037" ignored="false" />
     <file path="/menu.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393187921045" ignored="false" />
     <file path="/add.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393000713152" ignored="false" />
@@ -65,7 +61,7 @@
     <file path="$PROJECT_DIR$/../bss-dev/app/views/tags/headerNavigation.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1392304166681" ignored="false" />
     <file path="/demo-all.css" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1392334324923" ignored="false" />
     <file path="/confirmation.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393006910159" ignored="false" />
-    <file path="/headerDashboard.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393182658569" ignored="false" />
+    <file path="/headerDashboard.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393203042597" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +134,16 @@
       <file leaf-file-name="headerNavigation.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/tags/headerNavigation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="34" selection-start="545" selection-end="545" vertical-scroll-proportion="0.23396881">
+            <state line="32" column="46" selection-start="1583" selection-end="1583" vertical-scroll-proportion="0.44194108">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="headerDashboard.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/tags/headerDashboard.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="45" selection-start="1108" selection-end="1108" vertical-scroll-proportion="-15.0">
               <folding />
             </state>
           </provider>
@@ -180,7 +185,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/Categories/index.html" />
         <option value="$PROJECT_DIR$/app/views/Customers/index.html" />
         <option value="$PROJECT_DIR$/app/views/Products/index.html" />
         <option value="$PROJECT_DIR$/app/views/Suppliers/index.html" />
@@ -195,12 +199,12 @@
         <option value="$PROJECT_DIR$/app/views/tags/boxes.html" />
         <option value="$PROJECT_DIR$/app/views/tags/panels.html" />
         <option value="$PROJECT_DIR$/app/views/Application/index.html" />
+        <option value="$PROJECT_DIR$/app/views/tags/headerDashboard.html" />
         <option value="$PROJECT_DIR$/app/views/tags/headerNavigation.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1366" />
     <option name="y" value="2" />
     <option name="width" value="1366" />
     <option name="height" value="766" />
@@ -614,8 +618,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1366" y="2" width="1366" height="766" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="2" width="1366" height="766" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -708,11 +712,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/Products/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="16" selection-start="2058" selection-end="2058" vertical-scroll-proportion="-4.6666665" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Suppliers/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="56" column="16" selection-start="1740" selection-end="1740" vertical-scroll-proportion="-4.6666665" />
@@ -807,9 +806,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tags/headerDashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="45" selection-start="1108" selection-end="1108" vertical-scroll-proportion="-15.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/tags/headerNavigation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="34" selection-start="545" selection-end="545" vertical-scroll-proportion="0.23396881">
+        <state line="32" column="46" selection-start="1583" selection-end="1583" vertical-scroll-proportion="0.44194108">
           <folding />
         </state>
       </provider>
