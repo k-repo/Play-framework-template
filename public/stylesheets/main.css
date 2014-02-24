@@ -245,3 +245,7 @@ legend{
     -webkit-border-radius: 50%;
     border-radius: 50%;
 }
+
+.custom-search-form{
+    margin-top:5px;
+}

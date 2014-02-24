@@ -10,12 +10,12 @@ public class OpenIdService extends Controller{
     @Before(unless={"login", "authenticate"})
     static void checkAuthenticated()  throws Throwable {
 
-        System.out.println("checkAuthenticated");
-        System.out.println("Session user "+session.get("username"));
-        System.out.println("Session email "+session.get("email"));
-        System.out.println("Session role "+session.get("userRole"));
+        //System.out.println("checkAuthenticated");
+        //System.out.println("Session user "+session.get("username"));
+        //System.out.println("Session email "+session.get("email"));
+        //System.out.println("Session role "+session.get("userRole"));
         if (session.get("username") == null || session.get("username").equals("")) {
-            System.out.println("session username null or empty");
+            //System.out.println("session username null or empty");
             Secure.login();
         }
 
@@ -26,25 +26,25 @@ public class OpenIdService extends Controller{
     }
 
     public static void login() throws Throwable {
-        System.out.println("login");
+        //System.out.println("login");
         Secure.login();
     }
 
     public static void authenticate(String user) throws Throwable {
 
-        System.out.println("authenticate");
-        System.out.println("user authenticate openId: " + user);
+        //System.out.println("authenticate");
+        //System.out.println("user authenticate openId: " + user);
 
         if (OpenID.isAuthenticationResponse()) {
 
             OpenID.UserInfo verifiedUser = OpenID.getVerifiedID();
 
-            System.out.println("verifiedUser: " + verifiedUser.id);
+            //System.out.println("verifiedUser: " + verifiedUser.id);
 
             if (verifiedUser == null) {
-                System.out.println("Error login");
+                //System.out.println("Error login");
                 flash.put("error", "Authentication has failed");
-                System.out.println("openid verified user null");
+                //System.out.println("openid verified user null");
                 Secure.login();
             }
 
@@ -52,18 +52,18 @@ public class OpenIdService extends Controller{
 
 
             String userEmail = verifiedUser.extensions.get("email");
-            System.out.println("##### Email user "+userEmail);
+            //System.out.println("##### Email user "+userEmail);
             String first = verifiedUser.extensions.get("first");
-            System.out.println("##### firstname user "+first);
+            //System.out.println("##### firstname user "+first);
             String last = verifiedUser.extensions.get("last");
-            System.out.println("##### lastname user "+last);
+            //System.out.println("##### lastname user "+last);
 
 
 
 
             if (userEmail == null) {
                 flash.error("Your email address is required, please authorize our site to access it");
-                System.out.println("openid user mail null");
+                //System.out.println("openid user mail null");
                 Secure.login();
             }else{
                 User connectedUser = User.find("byEmail", userEmail.toLowerCase()).first();
@@ -75,9 +75,9 @@ public class OpenIdService extends Controller{
                     flash.put("Welcome", session.get("username"));
 
                 }else{
-                    System.out.println("Error login");
+                    //System.out.println("Error login");
                     flash.put("error", "Authentication has failed");
-                    System.out.println("openid connected user not found");
+                    //System.out.println("openid connected user not found");
                     Secure.login();
                 }
             }

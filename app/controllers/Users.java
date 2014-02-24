@@ -88,7 +88,7 @@ public class Users extends Controller {
 
         Role role = Role.findById(user.roleId);
 
-        System.out.println("######## "+user.firstname);
+        //System.out.println("######## "+user.firstname);
         render(user,role);
 
     }
@@ -125,7 +125,7 @@ public class Users extends Controller {
         }
 
         User user = User.findById(id);
-        System.out.println("!!!! "+user.firstname);
+        //System.out.println("!!!! "+user.firstname);
 
         user.firstname = firstname;
         user.lastname = lastname;
@@ -135,7 +135,7 @@ public class Users extends Controller {
         user.roleId = roleId;
         user.save();
 
-        System.out.println("#### USER "+user.firstname);
+        //System.out.println("#### USER "+user.firstname);
 
         flash.success("User %s updated", user.firstname);
 

@@ -23,7 +23,7 @@ public class Bootstrap extends Job {
 
         u.save();
 
-        System.out.println("####---- "+u.password);
+
 
         Role r = new Role();
         r.roleName = "Sales";

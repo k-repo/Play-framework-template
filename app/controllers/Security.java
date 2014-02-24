@@ -19,13 +19,13 @@ public class Security extends Secure.Security {
         if(connectedUser!=null)
         {
             //User connectedUser = User.find("userName",user).first();
-            System.out.println("Connected user name "+connectedUser.fullname);
-            System.out.println(connectedUser.toString());
+            //System.out.println("Connected user name "+connectedUser.fullname);
+            //System.out.println(connectedUser.toString());
 
             session.put("email", connectedUser.email);
             session.put("userId", connectedUser.id);
 
-            System.out.println(" User mail " + connectedUser.email);
+            //System.out.println(" User mail " + connectedUser.email);
         }
 
 
@@ -37,19 +37,19 @@ public class Security extends Secure.Security {
             User user = User.find("byFullNameAndPassword", username, Crypto.passwordHash(password)).first();
 
             if(user == null){
-                System.out.println("User == null 1");
+                //System.out.println("User == null 1");
                 return false;
             }
 
             session.put("username", user.fullname);
             session.put("userId", user.id);
-            System.out.println("Authenticate session content "+session.get("username"));
+            //System.out.println("Authenticate session content "+session.get("username"));
             return user != null && user.password.equals(Crypto.passwordHash(password));
 
         }
         else
         {
-            System.out.println("User == null 2");
+            //System.out.println("User == null 2");
             return false;
         }
     }
