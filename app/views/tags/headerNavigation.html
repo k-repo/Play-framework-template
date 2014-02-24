@@ -30,19 +30,24 @@
         </ul>
 
 
-        <form class="navbar-form " role="search">
+
+
+        <div class="navbar-form " role="search">
+        #{form @Services.googleSearch(), method:'GET'}
             <div class="col-lg-3">
                 <div class="input-group input-group-sm custom-search-form">
-                    <input type="text" style="margin-top: 1px;" class="form-control">
+                    <input type="text" id="q" name="q" style="margin-top: 1px;" class="form-control">
               <span class="input-group-btn">
-              <button class="btn btn-sm btn-primary" type="button">
+
+
+              <button class="btn btn-sm btn-primary" type="submit">
                   <span class="glyphicon glyphicon-search"></span>
               </button>
              </span>
                 </div><!-- /input-group -->
             </div>
-
-        </form>
+        #{/form}
+        </div>
 
 
 

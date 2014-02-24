@@ -67,7 +67,7 @@
 
         </div>
 
-        <div class="col-md-9 ">
+        <div class="#{if menuactivation != 'no' } col-md-9 #{/if}#{else } col-md-11 #{/else}">
             <div class="row">
                 <div class="col-md-12">
                 #{doLayout /}
@@ -82,9 +82,10 @@
 
 </div>
 
-#{menu /}
 
-
+#{if menuactivation != 'no' }
+    #{menu /}
+#{/if}
 
 
 

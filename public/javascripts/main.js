@@ -8,6 +8,9 @@
 
 
 $(document).ready(function() {
+
+
+    // SEARCH TABLE FUNCTIONS
     var activeSystemClass = $('.list-group-item.active');
 
     //something is entered in search form
@@ -58,7 +61,7 @@ $(document).ready(function() {
 
 });
 
-
+                 // PANELS JS FUNCTIONS
 $(document).on('click', '.panel-heading span.clickable', function(e){
     var $this = $(this);
     if(!$this.hasClass('panel-collapsed')) {
