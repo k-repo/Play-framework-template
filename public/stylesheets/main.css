@@ -299,3 +299,16 @@ hgroup h2.lead { font: normal normal 1.125em "Roboto",Arial,Verdana,sans-serif; 
 .search-result span.border { display: block; width: 97%; margin: 0 15px; border-bottom: 1px dotted #ccc; }
 
 
+/* Geo localisation */
+
+
+#map_canvas { height: 800px }
+#mapinfo
+{
+    display:block;
+    position:absolute;
+    top:10px;
+    left:10px;
+    z-index:10001;
+}
+

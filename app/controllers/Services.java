@@ -60,4 +60,11 @@ public class Services extends Controller {
 
     //
 
+
+    public static void location(){
+        render();
+    }
+
+
+
 }
