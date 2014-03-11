@@ -196,10 +196,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loading.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="loading.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/tags/loading.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="50" selection-start="577" selection-end="577" vertical-scroll-proportion="0.57192373">
+            <state line="2" column="8" selection-start="73" selection-end="73" vertical-scroll-proportion="-1.25">
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -207,10 +207,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="362" column="33" selection-start="10504" selection-end="10504" vertical-scroll-proportion="0.0">
+            <state line="398" column="1" selection-start="17564" selection-end="17564" vertical-scroll-proportion="0.9489796">
               <folding>
                 <element signature="e#10640#13783#2" expanded="true" />
                 <element signature="e#13912#17055#2" expanded="true" />
@@ -627,21 +627,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
+    <entry file="file://$PROJECT_DIR$/app/views/tags/loading.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="362" column="33" selection-start="10504" selection-end="10504" vertical-scroll-proportion="0.0">
+        <state line="2" column="8" selection-start="73" selection-end="73" vertical-scroll-proportion="-1.25">
           <folding>
-            <element signature="e#10640#13783#2" expanded="true" />
-            <element signature="e#13912#17055#2" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tags/loading.html">
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="50" selection-start="577" selection-end="577" vertical-scroll-proportion="0.57192373">
+        <state line="398" column="1" selection-start="17564" selection-end="17564" vertical-scroll-proportion="0.9489796">
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#10640#13783#2" expanded="true" />
+            <element signature="e#13912#17055#2" expanded="true" />
           </folding>
         </state>
       </provider>
