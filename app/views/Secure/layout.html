@@ -74,14 +74,14 @@
         <div class="col-md-4">
         #{if flash.error}
             <div class="alert alert-danger">
-                <button type="button" class="close" data-dismiss="alert">×</button>
+                <button type="button" class="close" >×</button>
                 <strong>&{flash.error}</strong> Please provide valid authorization.
             </div>
         #{/if}
 
         #{if flash.success}
             <div class="alert alert-success">
-                <button type="button" class="close" data-dismiss="alert">×</button>
+                <button type="button" class="close" >×</button>
 
                 <strong>	&{flash.success}       </strong>
 

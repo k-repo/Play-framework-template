@@ -1,4 +1,4 @@
-@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
+@import url(font-awesome.min.css);
 
 
 /* fonte face */
@@ -23,7 +23,22 @@ body{
     font-family: 'open_sanslight';
     margin-top:20px;
 
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #D3D8E8));
+    background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #D3D8E8 100%);
+    background-image: linear-gradient(to bottom, #FFFFFF 0%, #D3D8E8 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
 }
+
+hr {
+    border-top: 1px solid #dddddd !important;
+}
+
+.trans {
+    background-color: transparent !important;
+}
+
 .fa-fw {width: 2em;}
 
 
@@ -236,9 +251,16 @@ legend{
 
 
 .panel-default > .panel-heading {
-    background-image: -webkit-linear-gradient(top, #ffffff 0%, #f8f8f8 100%) !important;
+    /*background-image: -webkit-linear-gradient(top, #ffffff 0%, #f8f8f8 100%) !important;
     background-image: linear-gradient(to bottom, #ffffff 0%, #f8f8f8 100%) !important;
     background-repeat: repeat-x;
+             */
+    background-image: none !important;
+    background-color: transparent !important;
+}
+
+.panel {
+    background-color: transparent !important;
 }
 
 .profile-img

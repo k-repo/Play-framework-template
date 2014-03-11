@@ -68,6 +68,7 @@ public class Categories extends Controller{
 
     }
 
+
     public static void delete(Long id){
 
         Category category = Category.findById(id);

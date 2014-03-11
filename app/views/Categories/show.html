@@ -8,7 +8,7 @@
     <div class="panel-heading">Update category</div>
 
 
-    <div id="wrap">
+    <div id="">
         <div class="row pad">
         #{form  @Categories.update(), enctype:'multipart/form-data'  }
             <div class="col-md-5 col-md-offset-1">
@@ -24,7 +24,7 @@
 
                     #{if flash.error}
                         <div class="alert alert-danger alert-dismissable">
-                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                            <button type="button" class="close"  aria-hidden="true">&times;</button>
                             <strong>Warning!</strong> Best check your self, you're not looking too good.
                         ${play.i18n.Messages.get(flash.error)}
                         </div>

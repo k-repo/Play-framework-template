@@ -8,11 +8,11 @@
     <div class="panel-heading">New category</div>
 
 
-    <div id="wrap">
+    <div id="">
 
-        <div class="row pad">
+        <div class="row pad col-md-offset-1">
         #{form  @Categories.save(category.id), enctype:'multipart/form-data'  }
-            <div class="col-md-5 col-md-offset-1">
+            <div class="col-md-11 ">
 
 
             <div class="form">
@@ -22,7 +22,7 @@
 
             #{if flash.error}
                     <div class="alert alert-danger alert-dismissable">
-                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                        <button type="button" class="close"  aria-hidden="true">&times;</button>
                         <strong>Warning!</strong> Best check your self, you're not looking too good.
                         ${play.i18n.Messages.get(flash.error)}
                     </div>
@@ -31,21 +31,54 @@
 
 
 
+
+
+                <div class="row">
+                        <div class="col-md-2">
+                            Name
+                        </div>
+
+                <div class="col-md-7">
                     <input type="text" name="name" id="name" class="form-control  " placeholder="Name"/>
+                </div>
+
+
+                </div>
+                <hr>
+
+                  <div class="row">
+                      <div class="col-md-2">
+                          Description
+                      </div>
+
+                      <div class="col-md-7">
+                          <textarea style="" name="description" id="description" class="form-control  " placeholder="Description"> </textarea>
+                      </div>
+                  </div>
+                <hr>
+
+
+                <div class="row">
+                    <div class="col-md-2">
+                          Upload file
+                    </div>
+
+                    <div class="col-md-7">
+                        <input type="file" name="attachment" id="attachment" class="form-control  " placeholder="Attachment"/>
+                    </div>
+                </div>
+                <hr>
 
 
 
-                   Description
-
-                   <textarea style="height: 137px" name="description" id="description" class="form-control  " placeholder="Description"> </textarea>
-
-
-                <input type="file" name="attachment" id="attachment" class="form-control  " placeholder="Attachment"/>
-
-
-                <br/>
-                    <br/>
+                <div class="row">
+                <div class="col-md-7 col-md-offset-2">
                     <input type="submit" value="Save the new category" class="btn  btn-success btn-block " >
+                </div>
+                </div>
+
+
+            </div>
 
 
 
@@ -53,29 +86,6 @@
 
 
 
-            </div>
-
-
-
-            <div class="col-md-5 col-md-offset-0">
-                <br>
-
-                <h4>Categories</h4>
-
-                <p>
-
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt sed diam nonummy sed diam nonummy sed diam nonummy sed diam nonummy sed diam sed  ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, ex ea commodo consequat. Duis autem dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum
-
-                </p>
-
-                <br>
-
-                <a href="@{Categories.index()}" class="btn  btn-primary btn-block " type="submit">
-                    All available categories
-                </a>
-
-
-            </div>
 
         #{/form}
         </div>
