@@ -2,21 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/TweenLite.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/tags/loading.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facturio.iws" afterPath="$PROJECT_DIR$/Facturio.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Secure_layout.html" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Secure_layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Secure/layout.html" afterPath="$PROJECT_DIR$/app/views/Secure/layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/login.css" afterPath="$PROJECT_DIR$/public/stylesheets/login.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tags/loading.html" afterPath="$PROJECT_DIR$/app/views/tags/loading.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/main.css" afterPath="$PROJECT_DIR$/public/stylesheets/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Categories/show.html" afterPath="$PROJECT_DIR$/app/views/Categories/show.html" />
     </list>
     <ignored path="Facturio.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393935732703" ignored="false" />
     <file path="/main.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393935277675" ignored="false" />
-    <file path="/Dummy.txt" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1394035647965" ignored="false" />
-    <file path="/main.css" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393795842357" ignored="false" />
+    <file path="/Dummy.txt" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1394532494636" ignored="false" />
+    <file path="/main.css" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1394532700585" ignored="false" />
     <file path="/fragment.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389497997794" ignored="false" />
     <file path="/Personne.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1386880083359" ignored="false" />
     <file path="/Chambre.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1386880177365" ignored="false" />
@@ -78,6 +72,7 @@
     <file path="$PROJECT_DIR$/../dubai-police-gse/app/views/GSA/index.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393935732703" ignored="false" />
     <file path="$PROJECT_DIR$/../dubai-police-gse/app/views/Application/index.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393946388749" ignored="false" />
     <file path="$PROJECT_DIR$/../dubai-police-gse/app/controllers/Application.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393934095143" ignored="false" />
+    <file path="/loading.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1394532696018" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +87,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -129,6 +123,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -156,10 +151,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/Categories/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="164" column="25" selection-start="4271" selection-end="4567" vertical-scroll-proportion="0.8">
+            <state line="139" column="28" selection-start="4146" selection-end="4146" vertical-scroll-proportion="-4.375">
               <folding />
             </state>
           </provider>
@@ -201,11 +196,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loading.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="loading.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/tags/loading.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="52" selection-start="3576" selection-end="3576" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="22" column="50" selection-start="577" selection-end="577" vertical-scroll-proportion="0.57192373">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -213,8 +210,11 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="365" column="0" selection-start="10538" selection-end="10538" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="362" column="33" selection-start="10504" selection-end="10504" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#10640#13783#2" expanded="true" />
+                <element signature="e#13912#17055#2" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -246,17 +246,18 @@
         <option value="$PROJECT_DIR$/app/views/Services/googleSearch.html" />
         <option value="$PROJECT_DIR$/app/controllers/Services.java" />
         <option value="$PROJECT_DIR$/app/views/Services/location.html" />
-        <option value="$PROJECT_DIR$/app/views/tags/loading.html" />
-        <option value="$PROJECT_DIR$/public/stylesheets/main.css" />
         <option value="$PROJECT_DIR$/public/stylesheets/login.css" />
         <option value="$PROJECT_DIR$/public/javascripts/TweenLite.min.js" />
         <option value="$PROJECT_DIR$/app/views/Secure/layout.html" />
         <option value="$PROJECT_DIR$/app/views/Categories/show.html" />
         <option value="$PROJECT_DIR$/app/views/Categories/add.html" />
+        <option value="$PROJECT_DIR$/app/views/tags/loading.html" />
+        <option value="$PROJECT_DIR$/public/stylesheets/main.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="1366" />
     <option name="y" value="2" />
     <option name="width" value="1366" />
     <option name="height" value="766" />
@@ -277,7 +278,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -288,18 +289,31 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Facturio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="OverrideImplement.combined" value="true" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../gsa7/gsa7.ipr" />
     <property name="MemberChooser.showClasses" value="true" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RecentsManager">
@@ -335,19 +349,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -376,6 +377,19 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -389,6 +403,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -412,13 +433,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method />
-    </configuration>
     <list size="0" />
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -435,8 +449,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="2" width="1366" height="766" extended-state="6" />
-    <editor active="false" />
+    <frame x="1366" y="2" width="1366" height="766" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -454,12 +468,12 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24090908" sideWeight="0.67145133" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24090908" sideWeight="0.67145133" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32854864" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -566,13 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tags/loading.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="52" selection-start="3576" selection-end="3576" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/TweenLite.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -606,13 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="365" column="0" selection-start="10538" selection-end="10538" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Categories/add.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="79" column="10" selection-start="2333" selection-end="2335" vertical-scroll-proportion="0.0">
@@ -622,8 +622,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Categories/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="164" column="25" selection-start="4271" selection-end="4567" vertical-scroll-proportion="0.8">
+        <state line="139" column="28" selection-start="4146" selection-end="4146" vertical-scroll-proportion="-4.375">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="362" column="33" selection-start="10504" selection-end="10504" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#10640#13783#2" expanded="true" />
+            <element signature="e#13912#17055#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tags/loading.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="50" selection-start="577" selection-end="577" vertical-scroll-proportion="0.57192373">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
