@@ -17,6 +17,7 @@
     <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/bootstrap.css'}">
     <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/bootstrap-theme.css'}">
     <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/bootstrap-glyphicons.css'}" rel="stylesheet">
+    <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/login.css'}" rel="stylesheet">
 
 #{get 'moreStyles' /}
     <link rel="shortcut icon" type="image/png" href="@{'/public/images/favicon.png'}">
@@ -33,14 +34,15 @@
             border-top-left-radius: 0;
         }
     </style>
+
 </head>
-<body class="login">
+<body class="">
 <nav class="navbar navbar-inverse" role="navigation">
 </nav>
 <div class="container-fluid">
 
     <div class="row-fluid " style="">
-        <div class="col-md-4 col-md-offset-4 login-plain"  >
+        <div class="col-md-3 col-md-offset-4 login-plain"  >
             <div class="row-fluid">
                 <div class="col-md-12" >
                     <div class="row">
@@ -52,9 +54,8 @@
                 </div>
                 <div class="col-md-12">
                     <div class="row">
-                        <div class="darkbanner" ><h4 style="color: #fff;">Sign in</h4></div>
-                        <div class="darkbannerwrap"></div>
-                        <div class="col-md-10 col-md-offset-1 " >
+
+                        <div class="col-md-12 " >
 
         #{doLayout /}
 
@@ -97,6 +98,19 @@
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="@{'/public/javascripts/jquery2.js'}" type="text/javascript" charset="${_response_encoding}"></script>
-
+<script src="@{'/public/javascripts/TweenLite.min.js'}" type="text/javascript" charset="${_response_encoding}" ></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(document).mousemove(function(e){
+            TweenLite.to($('body'),
+                    .5,
+                    { css:
+                    {
+                        'background-position':parseInt(event.pageX/8) + "px "+parseInt(event.pageY/12)+"px, "+parseInt(event.pageX/15)+"px "+parseInt(event.pageY/15)+"px, "+parseInt(event.pageX/30)+"px "+parseInt(event.pageY/30)+"px"
+                    }
+                    });
+        });
+    });
+</script>
 </body>
 </html>

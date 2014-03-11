@@ -64,18 +64,30 @@
 
                 </div>
             </div>
+
+
             <div class="col-md-5 col-md-offset-0">
                 <br>
-                <h4>Categories</h4>
 
-                <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
-                    sed diam nonummy sed diam nonummy sed diam nonummy sed diam nonummy sed diam sed ut laoreet dolore
-                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam, ex ea commodo consequat. Duis autem dolor
-                    in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis
-                    at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum
-                </p>
+
+                <div class="panel panel-default">
+                    <div class="panel-image">
+                        <img src="@{Categories.getUploadedFile(category.id)}" class="panel-image-preview" />
+                        <label for="toggle-1"></label>
+                    </div>
+                    <input type="checkbox" id="toggle-1" class-"panel-image-toggle">
+                    <div class="panel-body">
+                        <h4>Title of Image</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in lobortis nisl, vitae iaculis sapien. Phasellus ultrices gravida massa luctus ornare. Suspendisse blandit quam elit, eu imperdiet neque semper et.</p>
+                    </div>
+                    <div class="panel-footer text-center">
+                        <a href="@{Categories.getUploadedFile(category.id)}" target="_blank"><span class="glyphicon glyphicon-download"></span></a>
+
+                    </div>
+                </div>
+
                 <br>
+
                 <a href="@{Categories.index()}" class="btn  btn-primary btn-block " type="submit">
                     All available categories
                 </a>
