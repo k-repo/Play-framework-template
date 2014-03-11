@@ -71,6 +71,11 @@ body{
     padding-right: 30px !important;
 }
 
+.spacepad {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .custab:hover{
     box-shadow: 3px 3px 0px transparent;
     transition: 0.5s;
