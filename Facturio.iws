@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Secure_layout.html" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Secure_layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Categories/add.html" afterPath="$PROJECT_DIR$/app/views/Categories/add.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Customers/add.html" afterPath="$PROJECT_DIR$/app/views/Customers/add.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Products/add.html" afterPath="$PROJECT_DIR$/app/views/Products/add.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Suppliers/add.html" afterPath="$PROJECT_DIR$/app/views/Suppliers/add.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tags/form_effect.html" afterPath="$PROJECT_DIR$/app/views/tags/form_effect.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/main.js" afterPath="$PROJECT_DIR$/public/javascripts/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Categories/show.html" afterPath="$PROJECT_DIR$/app/views/Categories/show.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Customers/show.html" afterPath="$PROJECT_DIR$/app/views/Customers/show.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Products/show.html" afterPath="$PROJECT_DIR$/app/views/Products/show.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Suppliers/show.html" afterPath="$PROJECT_DIR$/app/views/Suppliers/show.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tags/menu.html" afterPath="$PROJECT_DIR$/app/views/tags/menu.html" />
     </list>
     <ignored path="Facturio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -215,19 +205,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="45" selection-start="597" selection-end="602" vertical-scroll-proportion="0.33333334">
+            <state line="16" column="45" selection-start="597" selection-end="602" vertical-scroll-proportion="-3.6122448">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/Categories/show.html">
+      <file leaf-file-name="menu.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/tags/menu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="0" selection-start="3202" selection-end="3202" vertical-scroll-proportion="-19.75">
+            <state line="11" column="114" selection-start="535" selection-end="535" vertical-scroll-proportion="0.33536586">
               <folding />
             </state>
           </provider>
@@ -251,7 +241,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/Suppliers/index.html" />
         <option value="$PROJECT_DIR$/app/views/Users/add.html" />
         <option value="$PROJECT_DIR$/app/views/Users/index.html" />
         <option value="$PROJECT_DIR$/app/views/Users/show.html" />
@@ -267,6 +256,7 @@
         <option value="$PROJECT_DIR$/app/views/Products/show.html" />
         <option value="$PROJECT_DIR$/app/views/Suppliers/add.html" />
         <option value="$PROJECT_DIR$/app/views/Suppliers/show.html" />
+        <option value="$PROJECT_DIR$/app/views/tags/menu.html" />
       </list>
     </option>
   </component>
@@ -887,13 +877,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/Users/show.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="64" selection-start="548" selection-end="548" vertical-scroll-proportion="-5.1666665">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="66" selection-start="214" selection-end="214" vertical-scroll-proportion="0.07853403">
@@ -994,7 +977,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="45" selection-start="597" selection-end="602" vertical-scroll-proportion="0.33333334">
+        <state line="16" column="45" selection-start="597" selection-end="602" vertical-scroll-proportion="-3.6122448">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tags/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="114" selection-start="535" selection-end="535" vertical-scroll-proportion="0.33536586">
           <folding />
         </state>
       </provider>
