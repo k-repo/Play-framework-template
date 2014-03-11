@@ -24,11 +24,21 @@ public class Services extends Controller {
 
 
 
-    public static void geocode(String address){
-        WS.HttpResponse res = WS.url("https://michele-zonca-google-geocoding.p.mashape.com/geocode/json?address="+address+"&sensor=false&bounds=%3Cbounds%3E&language=%3Clanguage%3E&region=%3Cregion%3E").headers(Collections.singletonMap("X-Mashape-Authorization","Pye4FcJo1dxtr43p8AjsIvQ8kV2DUV2m")).get();
+    public static void geocode(){
+        String address="";
+        params.get("loc");
+        if(params.get("loc") == null || params.get("loc").isEmpty()){
+        address = "casablanca maroc";
+        }else{
+            address = params.get("loc");
+        }
+
+        System.out.println("### "+address);
+
+        WS.HttpResponse res = WS.url("https://michele-zonca-google-geocoding.p.mashape.com/geocode/json?address="+address+"&sensor=false&bounds=%3Cbounds%3E&language=fr&region=%3Cregion%3E").headers(Collections.singletonMap("X-Mashape-Authorization","Pye4FcJo1dxtr43p8AjsIvQ8kV2DUV2m")).get();
         JsonElement json = res.getJson();
 
-        renderJSON(json);
+        render(json);
 
     }
 

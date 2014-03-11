@@ -15,52 +15,72 @@
 
                 <div class="col-md-12">
 
+                #{if json.getAt("error") != null}
+                    <div class="col-sm-12 col-md-12">
+                        <div class="alert-message alert-message-danger">
+                            <h4>
+                                Sorry ...</h4>
+                            <p>
+                                Daily Limit Exceeded
+                            </p>
+                        </div>
+                    </div>
+                #{/if}
 
+
+
+
+                #{else }
                 #{list items:json.getAt("items"), as:'item' }
 
                     <div class="blockquote-box blockquote-success  clearfix">
 
                         <div class="square pull-left">
                             <span class="glyphicon">${item.getAt("displayLink").toString().replace('"', "").replace('www.', "").replace('.com', "").raw()}</span>
+
                         </div>
                         <h4>
                         <a target="_blank" href="${item.getAt("link").toString().replace('"', "").raw()}">
-                        ${item.getAt("title").toString().replace('"', "").raw()}
+                        ${item.getAt("htmlTitle").toString().replace('"', "").raw()}
                         </a>
                         </h4>
                         <p>
                         ${item.getAt("htmlSnippet").toString().replace('"','').raw()}
                         </p>
+
                     </div>
 
                 #{/list}
 
 
-
-
-
-
-
-
-
-
-
-               <strong>kind :</strong> ${json.getAt("kind")}
-               <br>
-                   <strong>url :</strong> ${json.getAt("url")}
-               <br>
-                       <strong>queries :</strong> ${json.getAt("queries")}
-               <br>
-                           <strong>context :</strong> ${json.getAt("context")}
-               <br>
-                               <strong>searchInformation :</strong> ${json.getAt("queries")}
-            <br>
-            <strong>totalResults :</strong> ${json.getAt("searchInformation").getAt("totalResults")}   <br>
-            <strong>searchterms :</strong> ${json.getAt("searchInformation").getAt("searchTerms")}
+                    <strong>items :</strong> ${json.getAt("items")}
+                    <br>
+                    <strong>kind :</strong> ${json.getAt("kind")}
+                    <br>
+                    <strong>url :</strong> ${json.getAt("url")}
+                    <br>
+                    <strong>queries :</strong> ${json.getAt("queries")}
+                    <br>
+                    <strong>context :</strong> ${json.getAt("context")}
+                    <br>
+                    <strong>searchInformation :</strong> ${json.getAt("queries")}
+                    <br>
+                    <strong>totalResults :</strong> ${json.getAt("searchInformation").getAt("totalResults")}   <br>
+                    <strong>searchterms :</strong> ${json.getAt("searchInformation").getAt("searchTerms")}
 
 
 
                     <hr><hr><hr><hr><hr>
+                #{/else}
+
+
+
+
+
+
+
+
+
 
 
 
