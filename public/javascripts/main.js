@@ -6,6 +6,22 @@
  * To change this template use File | Settings | File Templates.
  */
 
+$(function () {
+
+    var $j = jQuery.noConflict();
+    $j("#datepick").datepicker({
+        todayBtn: "linked",
+        orientation: "bottom right",
+        format: "dd-mm-yyyy",
+        multidate: false,
+        language: "en",
+        autoclose: true
+        /* startDate: -1,
+         endDate: +2,     */
+    });
+
+});
+
 
 $(document).ready(function() {
 
