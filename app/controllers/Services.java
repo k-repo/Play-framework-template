@@ -7,6 +7,7 @@ import play.mvc.Controller;
 import play.mvc.With;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 
 /**
@@ -21,6 +22,15 @@ import java.util.Iterator;
 @With(Secure.class)
 public class Services extends Controller {
 
+
+
+    public static void geocode(String address){
+        WS.HttpResponse res = WS.url("https://michele-zonca-google-geocoding.p.mashape.com/geocode/json?address="+address+"&sensor=false&bounds=%3Cbounds%3E&language=%3Clanguage%3E&region=%3Cregion%3E").headers(Collections.singletonMap("X-Mashape-Authorization","Pye4FcJo1dxtr43p8AjsIvQ8kV2DUV2m")).get();
+        JsonElement json = res.getJson();
+
+        renderJSON(json);
+
+    }
 
     public static void googleSearch(String q){
 

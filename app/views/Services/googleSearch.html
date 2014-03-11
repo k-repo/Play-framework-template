@@ -14,61 +14,53 @@
 
 
                 <div class="col-md-12">
-                    <div class="blockquote-box blockquote-info  clearfix">
+
+
+                #{list items:json.getAt("items"), as:'item' }
+
+                    <div class="blockquote-box blockquote-success  clearfix">
 
                         <div class="square pull-left">
-                            <span class="glyphicon"> Viadeo</span>
-                        </div>
-
-
-
-
-
-                        <h4>Bootsnipp</h4>
-
-
-
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
-                            ante.
-
-
-
-
-                        </p>
-
-
-
-                    </div>
-                    <div class="blockquote-box blockquote-primary clearfix">
-                        <div class="square pull-left">
-                            <span class="glyphicon"> Facebook</span>
+                            <span class="glyphicon">${item.getAt("displayLink").toString().replace('"', "").replace('www.', "").replace('.com', "").raw()}</span>
                         </div>
                         <h4>
-                            Let's music play</h4>
+                        <a target="_blank" href="${item.getAt("link").toString().replace('"', "").raw()}">
+                        ${item.getAt("title").toString().replace('"', "").raw()}
+                        </a>
+                        </h4>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
-                            ante.
+                        ${item.getAt("htmlSnippet").toString().replace('"','').raw()}
                         </p>
                     </div>
-                    <div class="blockquote-box blockquote-success clearfix">
-                        <div class="square pull-left">
-                            <span class="glyphicon ">Google</span>
-                        </div>
-                        <h4>
-                            Tree conifer</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
-                            ante.
-                        </p>
-                    </div>
-                </div>
+
+                #{/list}
 
 
 
 
 
 
+
+
+
+
+
+               <strong>kind :</strong> ${json.getAt("kind")}
+               <br>
+                   <strong>url :</strong> ${json.getAt("url")}
+               <br>
+                       <strong>queries :</strong> ${json.getAt("queries")}
+               <br>
+                           <strong>context :</strong> ${json.getAt("context")}
+               <br>
+                               <strong>searchInformation :</strong> ${json.getAt("queries")}
+            <br>
+            <strong>totalResults :</strong> ${json.getAt("searchInformation").getAt("totalResults")}   <br>
+            <strong>searchterms :</strong> ${json.getAt("searchInformation").getAt("searchTerms")}
+
+
+
+                    <hr><hr><hr><hr><hr>
 
 
 
