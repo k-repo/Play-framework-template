@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/Services/geocode.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facturio.iws" afterPath="$PROJECT_DIR$/Facturio.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Services.java" afterPath="$PROJECT_DIR$/app/controllers/Services.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_headerNavigation.html" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_headerNavigation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_module_crud__app_views_tags_crud_types.tag" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_module_crud__app_views_tags_crud_types.tag" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_play__framework_templates_errors_404.txt" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_play__framework_templates_errors_404.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Services/googleSearch.html" afterPath="$PROJECT_DIR$/app/views/Services/googleSearch.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tags/headerDashboard.html" afterPath="$PROJECT_DIR$/app/views/tags/headerDashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tags/headerNavigation.html" afterPath="$PROJECT_DIR$/app/views/tags/headerNavigation.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Services/location.html" afterPath="$PROJECT_DIR$/app/views/Services/location.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/main.css" afterPath="$PROJECT_DIR$/public/stylesheets/main.css" />
     </list>
     <ignored path="Facturio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,7 +63,7 @@
     <file path="/Services.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1394554013020" ignored="false" />
     <file path="/main.js" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393266533917" ignored="false" />
     <file path="/googleSearch.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1394551613143" ignored="false" />
-    <file path="/location.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1394552765903" ignored="false" />
+    <file path="/location.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1394559307481" ignored="false" />
     <file path="$PROJECT_DIR$/../dubai-police-gse/app/views/main.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393946217999" ignored="false" />
     <file path="$PROJECT_DIR$/../GSE-POC/gsev11-09122013/app/views/Investigations/list.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393929187713" ignored="false" />
     <file path="$PROJECT_DIR$/../dubai-police-gse/app/controllers/GSA.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393935618579" ignored="false" />
@@ -173,7 +163,7 @@
       <file leaf-file-name="geocode.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/Services/geocode.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="17" selection-start="611" selection-end="699" vertical-scroll-proportion="-15.625">
+            <state line="8" column="0" selection-start="77" selection-end="597" vertical-scroll-proportion="-5.0">
               <folding>
                 <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
@@ -185,9 +175,10 @@
       <file leaf-file-name="location.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/Services/location.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="10" selection-start="208" selection-end="208" vertical-scroll-proportion="0.33795494">
+            <state line="25" column="8" selection-start="641" selection-end="641" vertical-scroll-proportion="0.6499134">
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -808,7 +799,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Services/geocode.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="17" selection-start="611" selection-end="699" vertical-scroll-proportion="-15.625">
+        <state line="8" column="0" selection-start="77" selection-end="597" vertical-scroll-proportion="-5.0">
           <folding>
             <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
@@ -818,9 +809,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Services/location.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="10" selection-start="208" selection-end="208" vertical-scroll-proportion="0.33795494">
+        <state line="25" column="8" selection-start="641" selection-end="641" vertical-scroll-proportion="0.6499134">
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

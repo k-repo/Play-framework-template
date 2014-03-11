@@ -8,7 +8,22 @@
 
 
 <div class="row">
+#{form @Services.geocode(), method:'GET'}
+    <div class="col-md-5">
+        <div class="input-group input-group-sm custom-search-form">
+            <input type="text" id="loc" name="loc" style="margin-top: 0px;" class="form-control">
+              <span class="input-group-btn">
 
+
+              <button class="btn btn-sm btn-danger" type="submit">
+                  <span class="glyphicon glyphicon-map-marker"></span>
+              </button>
+             </span>
+        </div><!-- /input-group -->
+    </div>
+
+#{/form}
+    <hr>
     <div class="col-md-12">
         <div id="map-canvas" style="height:400px;"></div>
     </div>
