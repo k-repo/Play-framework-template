@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tags/loading.html" afterPath="$PROJECT_DIR$/app/views/tags/loading.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/main.css" afterPath="$PROJECT_DIR$/public/stylesheets/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Categories/show.html" afterPath="$PROJECT_DIR$/app/views/Categories/show.html" />
     </list>
     <ignored path="Facturio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,7 +39,7 @@
     <file path="/menu.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393187921045" ignored="false" />
     <file path="/add.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393797577674" ignored="false" />
     <file path="/routes" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389415143118" ignored="false" />
-    <file path="/show.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1393797322427" ignored="false" />
+    <file path="/show.html" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1394533209042" ignored="false" />
     <file path="/FactureProduit.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389497715508" ignored="false" />
     <file path="/Customer.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1392050450600" ignored="false" />
     <file path="/Sale.java" changelist="9c36cd48-0bec-4b1e-bd52-eb77bd2bf583" time="1389497989737" ignored="false" />
@@ -145,7 +144,7 @@
       <file leaf-file-name="add.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/Categories/add.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="10" selection-start="2333" selection-end="2335" vertical-scroll-proportion="0.0">
+            <state line="79" column="10" selection-start="2333" selection-end="2335" vertical-scroll-proportion="-12.875">
               <folding />
             </state>
           </provider>
@@ -160,10 +159,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="show.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/Categories/show.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="91" selection-start="2817" selection-end="2817" vertical-scroll-proportion="0.0">
+            <state line="74" column="120" selection-start="2150" selection-end="2150" vertical-scroll-proportion="0.33510637">
               <folding />
             </state>
           </provider>
@@ -207,10 +206,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="398" column="1" selection-start="17564" selection-end="17564" vertical-scroll-proportion="0.9489796">
+            <state line="368" column="66" selection-start="13826" selection-end="13826" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#10640#13783#2" expanded="true" />
                 <element signature="e#13912#17055#2" expanded="true" />
@@ -249,10 +248,10 @@
         <option value="$PROJECT_DIR$/public/stylesheets/login.css" />
         <option value="$PROJECT_DIR$/public/javascripts/TweenLite.min.js" />
         <option value="$PROJECT_DIR$/app/views/Secure/layout.html" />
-        <option value="$PROJECT_DIR$/app/views/Categories/show.html" />
         <option value="$PROJECT_DIR$/app/views/Categories/add.html" />
         <option value="$PROJECT_DIR$/app/views/tags/loading.html" />
         <option value="$PROJECT_DIR$/public/stylesheets/main.css" />
+        <option value="$PROJECT_DIR$/app/views/Categories/show.html" />
       </list>
     </option>
   </component>
@@ -606,23 +605,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Categories/show.html">
+    <entry file="file://$PROJECT_DIR$/app/views/Categories/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="91" selection-start="2817" selection-end="2817" vertical-scroll-proportion="0.0">
+        <state line="139" column="28" selection-start="4146" selection-end="4146" vertical-scroll-proportion="-4.375">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="368" column="66" selection-start="13826" selection-end="13826" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#10640#13783#2" expanded="true" />
+            <element signature="e#13912#17055#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Categories/add.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="10" selection-start="2333" selection-end="2335" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Categories/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="28" selection-start="4146" selection-end="4146" vertical-scroll-proportion="-4.375">
+        <state line="79" column="10" selection-start="2333" selection-end="2335" vertical-scroll-proportion="-12.875">
           <folding />
         </state>
       </provider>
@@ -636,13 +638,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
+    <entry file="file://$PROJECT_DIR$/app/views/Categories/show.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="398" column="1" selection-start="17564" selection-end="17564" vertical-scroll-proportion="0.9489796">
-          <folding>
-            <element signature="e#10640#13783#2" expanded="true" />
-            <element signature="e#13912#17055#2" expanded="true" />
-          </folding>
+        <state line="74" column="120" selection-start="2150" selection-end="2150" vertical-scroll-proportion="0.33510637">
+          <folding />
         </state>
       </provider>
     </entry>
