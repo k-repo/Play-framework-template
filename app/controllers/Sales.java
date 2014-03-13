@@ -12,7 +12,7 @@ import play.mvc.Controller;
 public class Sales extends Controller {
 
     public static void index(){
-
+         render();
     }
 
     public static void add(){
